@@ -161,6 +161,19 @@ After the pull request is reviewed and merged:
 
 The workflow only deploys on `main` (or a manual workflow dispatch), so pushing `site-migration` does not replace the public site.
 
+## Repository handoff status
+
+All work is committed locally on the `site-migration` branch. The final push was attempted, but this checkout has no usable GitHub HTTPS credentials and non-interactive Git reported that it could not read a username. Consequently, the branch and pull request have not been created on GitHub.
+
+After authenticating Git for this repository, run:
+
+```powershell
+git push -u origin site-migration
+gh pr create --base main --head site-migration --title "Migrate academic website to Quarto" --body "Builds the first complete Quarto version of the academic website. See MIGRATION_REPORT.md for content, provenance, quality-control results, and post-merge Pages configuration."
+```
+
+Do not merge the pull request until the site content and attribution notes have been reviewed.
+
 ## Local preview command
 
 From the repository root on this computer:

@@ -23,7 +23,7 @@ Conference organization and professional activities, updated from the current CV
 ::: {.timeline-item}
 ### Celebrating James G. MacKinnon
 
-**Co-organizer · 2025**  
+**Co-organizer · 2025**<br>
 Conference and festschrift activities recognizing James MacKinnon's contributions to econometrics.
 :::
 
@@ -80,4 +80,3 @@ Conference and festschrift activities recognizing James MacKinnon's contribution
 - **2025:** *Jackknife Inference for Multiway Clustering and CS-DiD in Stata: twowayjack and csdidjack*, Canadian Stata Conference.
 
 The [full CV](files/webb_CV.pdf) contains the complete record of invited seminars, conference presentations, discussions, and professional service.
-

@@ -113,7 +113,7 @@ def render_software() -> str:
                 "::: {.implementation}",
                 f"#### {display} — {impl['language']} <span class=\"registry-pill\">{badge}</span>",
                 "",
-                f"**Implementation:** {impl['implementer']}  ",
+                f"**Implementation:** {impl['implementer']}<br>",
                 f"**Role:** {impl['role']}",
                 "",
             ])

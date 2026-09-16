@@ -18,7 +18,7 @@ Cluster-level leverage and influence diagnostics and cluster-jackknife variance 
 ::: {.implementation}
 #### summclust — Stata <span class="registry-pill">SSC</span>
 
-**Implementation:** Matthew D. Webb  
+**Implementation:** Matthew D. Webb<br>
 **Role:** Original implementation
 
 [SSC](https://ideas.repec.org/c/boc/bocode/s459072.html) · [GitHub](https://github.com/mattdwebb/summclust) · [Documentation](https://github.com/mattdwebb/summclust/blob/main/summclust.sthlp)
@@ -49,7 +49,7 @@ Cluster-jackknife and wild-cluster-bootstrap inference for logistic regression m
 ::: {.implementation}
 #### logitjack — Stata <span class="registry-pill">SSC</span>
 
-**Implementation:** Matthew D. Webb  
+**Implementation:** Matthew D. Webb<br>
 **Role:** Original implementation
 
 [SSC](https://ideas.repec.org/c/boc/bocode/s459337.html) · [GitHub](https://github.com/mattdwebb/logitjack) · [Documentation](https://github.com/mattdwebb/logitjack/blob/main/logitjack.sthlp)
@@ -82,7 +82,7 @@ Jackknife variance estimation and inference for linear regression models with tw
 ::: {.implementation}
 #### twowayjack — Stata <span class="registry-pill">GitHub only</span>
 
-**Implementation:** Matthew D. Webb  
+**Implementation:** Matthew D. Webb<br>
 **Role:** Original implementation
 
 [GitHub](https://github.com/mattdwebb/twowayjack) · [Documentation](https://github.com/mattdwebb/twowayjack/blob/main/twowayjack.sthlp)
@@ -115,7 +115,7 @@ Score-variance tests for choosing the appropriate level of clustering in linear 
 ::: {.implementation}
 #### mnwsvt — Stata <span class="registry-pill">GitHub only</span>
 
-**Implementation:** Matthew D. Webb  
+**Implementation:** Matthew D. Webb<br>
 **Role:** Original implementation
 
 [GitHub](https://github.com/mattdwebb/mnwsvt) · [Documentation](https://github.com/mattdwebb/mnwsvt)
@@ -130,7 +130,7 @@ net install mnwsvt, from("https://raw.githubusercontent.com/mattdwebb/mnwsvt/mai
 ::: {.implementation}
 #### mnwsvt — R <span class="registry-pill">GitHub only</span>
 
-**Implementation:** Tonghui Tian  
+**Implementation:** Tonghui Tian<br>
 **Role:** R implementation by a research assistant
 
 [GitHub](https://github.com/tttthhtysx/MNW) · [Documentation](https://github.com/tttthhtysx/MNW)
@@ -159,7 +159,7 @@ Cluster-jackknife (CV3) inference for the Callaway-Sant'Anna difference-in-diffe
 ::: {.implementation}
 #### csdidjack — Stata <span class="registry-pill">GitHub only</span>
 
-**Implementation:** Yunhan Liu  
+**Implementation:** Yunhan Liu<br>
 **Role:** Stata implementation by a research assistant
 
 [GitHub](https://github.com/liu-yunhan/csdidjack) · [Documentation](https://github.com/liu-yunhan/csdidjack#readme)
@@ -174,7 +174,7 @@ net install csdidjack, from("https://raw.githubusercontent.com/liu-yunhan/csdidj
 ::: {.implementation}
 #### didjack — R <span class="registry-pill">GitHub only</span>
 
-**Implementation:** Yunhan Liu  
+**Implementation:** Yunhan Liu<br>
 **Role:** R implementation by a research assistant
 
 [GitHub](https://github.com/liu-yunhan/didjack) · [Documentation](https://github.com/liu-yunhan/didjack#readme)
@@ -205,7 +205,7 @@ Intersection Difference-in-Differences estimation for settings in which covariat
 ::: {.implementation}
 #### DiDInt.jl — Julia <span class="registry-pill">Julia General Registry</span>
 
-**Implementation:** Eric Jamieson  
+**Implementation:** Eric Jamieson<br>
 **Role:** Julia implementation by a research assistant
 
 [Julia General Registry](https://github.com/JuliaRegistries/General/tree/master/D/DiDInt) · [GitHub](https://github.com/ebjamieson97/DiDInt.jl) · [Documentation](https://github.com/ebjamieson97/DiDInt.jl#readme)
@@ -237,7 +237,7 @@ Difference-in-differences for data held in separate silos that cannot be pooled,
 ::: {.implementation}
 #### undid — Stata <span class="registry-pill">SSC</span>
 
-**Implementation:** Eric Jamieson  
+**Implementation:** Eric Jamieson<br>
 **Role:** Stata implementation by a research assistant
 
 [SSC](https://ideas.repec.org/c/boc/bocode/s459516.html) · [GitHub](https://github.com/ebjamieson97/undid) · [Documentation](https://github.com/ebjamieson97/undid#readme)
@@ -252,7 +252,7 @@ ssc install undid
 ::: {.implementation}
 #### undidR — R <span class="registry-pill">CRAN</span>
 
-**Implementation:** Eric Jamieson  
+**Implementation:** Eric Jamieson<br>
 **Role:** R implementation by a research assistant
 
 [CRAN](https://cran.r-project.org/package=undidR) · [GitHub](https://github.com/ebjamieson97/undidR) · [Documentation](https://ebjamieson97.github.io/undidR/)
@@ -267,7 +267,7 @@ install.packages("undidR")
 ::: {.implementation}
 #### Undid.jl — Julia <span class="registry-pill">GitHub only</span>
 
-**Implementation:** Eric Jamieson  
+**Implementation:** Eric Jamieson<br>
 **Role:** Julia implementation by a research assistant
 
 [GitHub](https://github.com/ebjamieson97/Undid.jl) · [Documentation](https://github.com/ebjamieson97/Undid.jl#readme)
@@ -283,7 +283,7 @@ Pkg.add(url="https://github.com/ebjamieson97/Undid.jl")
 ::: {.implementation}
 #### undidPyjl — Python <span class="registry-pill">PyPI</span>
 
-**Implementation:** Eric Jamieson  
+**Implementation:** Eric Jamieson<br>
 **Role:** Python wrapper by a research assistant
 
 [PyPI](https://pypi.org/project/undidPyjl/) · [GitHub](https://github.com/ebjamieson97/undidPyjl) · [Documentation](https://github.com/ebjamieson97/undidPyjl#readme)

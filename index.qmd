@@ -1,0 +1,82 @@
+---
+title: "Matthew D. Webb"
+description: "Associate Professor of Economics at Carleton University researching applied microeconometrics, causal inference, and machine learning for economic measurement."
+pagetitle: "Matthew D. Webb | Economics, Carleton University"
+---
+
+::: {.home-intro}
+::: {.home-copy}
+<p class="eyebrow">Associate Professor of Economics · Carleton University</p>
+
+# Matthew D. Webb
+
+<p class="research-line">Applied Microeconometrics <span>·</span> Causal Inference <span>·</span> Machine Learning and AI for Economic Measurement <span>·</span> Empirical Microeconomics</p>
+
+I develop and apply econometric methods for credible empirical research, with a particular focus on inference with clustered data and difference-in-differences designs. My current work also uses machine learning and AI to measure economically meaningful features in images and other complex data.
+
+<div class="button-row">
+  <a class="button button-primary" href="files/webb_CV.pdf">Download CV</a>
+  <a class="button" href="research.qmd">Research</a>
+  <a class="button" href="software.qmd">Research software</a>
+</div>
+
+<div class="profile-links" aria-label="Academic profiles and contact">
+  <a href="https://scholar.google.ca/citations?user=kojy3UAAAAAJ&hl=en">Google Scholar</a>
+  <a href="https://github.com/mattdwebb">GitHub</a>
+  <a href="https://youtube.com/@MattWebbEcon">YouTube</a>
+  <a href="mailto:matt.webb@carleton.ca">Email</a>
+</div>
+:::
+
+::: {.home-photo}
+![Matthew D. Webb outdoors](assets/images/matthew-webb.jpg){fig-alt="Matthew D. Webb outdoors"}
+:::
+:::
+
+## Current Research
+
+::: {.feature-grid}
+::: {.feature-card}
+### Using Images as Covariates
+
+Measuring curb appeal with deep learning and integrating image-derived information into economic models.
+
+[Paper](https://arxiv.org/abs/2403.19915) · [Research overview](research.qmd#ai-machine-learning-and-economic-measurement)
+:::
+
+::: {.feature-card}
+### Improved Inference for CSDID
+
+Cluster-jackknife inference for modern difference-in-differences estimators.
+
+[Paper](https://arxiv.org/abs/2602.12043) · [Watch video](https://www.youtube.com/watch?v=8xLv7Bu-_l0)
+:::
+
+::: {.feature-card}
+### DID-INT and UN-DID
+
+Methods for difference-in-differences with covariate-effect heterogeneity and with data that cannot be pooled.
+
+[DID-INT](https://arxiv.org/abs/2412.14447) · [UN-DID](https://arxiv.org/abs/2403.15910)
+:::
+:::
+
+## Research Software
+
+The [Software page](software.qmd) is a curated guide to implementations of my research methods across Stata, R, Julia, and Python. It groups software by method, gives verified installation commands, connects each implementation to its paper, and credits the implementation author.
+
+## Latest Video
+
+::: {.video-feature}
+::: {.video-thumb}
+[![Thumbnail for Cluster-robust inference: A guide to empirical practice](https://i.ytimg.com/vi/az_-DVLhslI/hqdefault.jpg){fig-alt="Thumbnail for the video Cluster-robust inference: A guide to empirical practice"}](https://www.youtube.com/watch?v=az_-DVLhslI)
+:::
+::: {.video-copy}
+### Cluster-robust inference: A guide to empirical practice
+
+A practical introduction to choosing and applying cluster-robust inference methods, based on joint work with James G. MacKinnon and Morten Ørregaard Nielsen.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=az_-DVLhslI) · [Published paper](https://www.sciencedirect.com/science/article/pii/S0304407622000781)
+:::
+:::
+

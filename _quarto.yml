@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Matthew D. Webb"
+  site-url: "https://mattdwebb.github.io/"
+  description: "Matthew D. Webb is an Associate Professor of Economics at Carleton University working in applied microeconometrics, causal inference, and machine learning for economic measurement."
+  navbar:
+    background: light
+    foreground: dark
+    pinned: true
+    left:
+      - href: research.qmd
+        text: Research
+      - href: software.qmd
+        text: Software
+      - href: teaching.qmd
+        text: Teaching
+      - href: videos.qmd
+        text: Videos
+      - href: files/webb_CV.pdf
+        text: CV
+      - text: More
+        menu:
+          - href: conferences.qmd
+            text: Conferences
+          - href: hockey.qmd
+            text: Hockey
+    right:
+      - href: "https://scholar.google.ca/citations?user=kojy3UAAAAAJ&hl=en"
+        text: Scholar
+        aria-label: Google Scholar
+      - href: "https://github.com/mattdwebb"
+        text: GitHub
+      - href: "https://youtube.com/@MattWebbEcon"
+        text: YouTube
+      - href: "mailto:matt.webb@carleton.ca"
+        text: Email
+  page-footer:
+    left: "© Matthew D. Webb"
+    right: "Associate Professor of Economics · Carleton University"
+  open-graph: true
+  twitter-card: false
+  page-navigation: false
+
+format:
+  html:
+    theme: none
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    lang: en
+

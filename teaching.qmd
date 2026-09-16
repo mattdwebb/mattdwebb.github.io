@@ -1,0 +1,53 @@
+---
+title: "Teaching"
+description: "Selected graduate and undergraduate teaching by Matthew D. Webb at Carleton University."
+---
+
+My teaching centers on applied econometrics, data science, and empirical research. The list below reflects the current CV and is intentionally limited to public course information; private course sites and materials are not linked.
+
+## Current and Recent Graduate Teaching
+
+::: {.teaching-grid}
+::: {.teaching-card}
+### Microeconometrics
+
+**ECON 5712 · Carleton University**
+
+Graduate methods for credible empirical microeconomic research, including modern estimation and inference.
+:::
+
+::: {.teaching-card}
+### Economic Data Science
+
+**ECON 5880 · Special Topics · Carleton University**
+
+Tools and workflows for economic research with modern data and computational methods.
+:::
+
+::: {.teaching-card}
+### Econometrics I
+
+**ECON 5027 · Master's · Carleton University**
+
+Core graduate econometric theory and practice.
+:::
+
+::: {.teaching-card}
+### Labour Economics II
+
+**ECON 5362 · PhD · Carleton University**
+
+Advanced labour economics, co-taught.
+:::
+:::
+
+## Undergraduate Teaching
+
+- **Honours Capstone Seminar (ECON 4905)** — Carleton University
+- **Statistical Analysis in Economics (ECON 4002)** — Carleton University
+- **Statistical Methods in Economics and Business I (ECON 2201)** — Carleton University
+
+Earlier teaching includes Economics of the Environment at the Royal Military College of Canada and Introduction to Microeconomics at Wilfrid Laurier University.
+
+For current registration, schedules, and official course descriptions, consult [Carleton University's Department of Economics](https://carleton.ca/economics/).
+

@@ -1,0 +1,292 @@
+{
+  "current": [
+    {
+      "category": "AI, Machine Learning, and Economic Measurement",
+      "title": "Representation Risk in Pretrained Image Encoders",
+      "status": "ICLR 2027 submission",
+      "summary": "Studies representation risk: different plausible pretrained image encoders applied to the same images can produce materially different downstream conclusions. The paper compares modern and legacy encoders across economic, medical, biological, and demographic tasks and studies representation selection, combination, robustness, uncertainty, computational cost, and a reproducible software framework.",
+      "links": [],
+      "public_url": null,
+      "link_note": "A public manuscript link will be added when an arXiv version is available. The anonymous submission PDF is not distributed here."
+    },
+    {
+      "category": "AI, Machine Learning, and Economic Measurement",
+      "title": "Images as Covariates: Incorporating Missing Information from Structured Data",
+      "status": "2026 working paper",
+      "summary": "Asks when images add predictive information beyond an existing structured covariate set. It separates image-only predictability, overlap with structured covariates, and incremental predictive information, with applications to Toronto houses, Thoroughbred horses, and Ontario Google Scholar profiles.",
+      "links": [],
+      "public_url": null,
+      "link_note": "The public-link field is ready for the current manuscript's future arXiv version; the older curb-appeal preprint is not presented as the current paper."
+    },
+    {
+      "category": "Econometric Methods and Inference",
+      "title": "Improved Inference for CSDID Using the Cluster Jackknife",
+      "authors": "Sunny R. Karim, Morten Ørregaard Nielsen, James G. MacKinnon, and Matthew D. Webb",
+      "status": "Working paper",
+      "summary": "Develops cluster-jackknife inference for the Callaway-Sant'Anna difference-in-differences estimator and provides companion implementations in Stata and R.",
+      "links": [
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2602.12043"},
+        {"label": "Software", "url": "software.qmd#csdid-jackknife"},
+        {"label": "Watch video", "url": "https://www.youtube.com/watch?v=8xLv7Bu-_l0"}
+      ]
+    },
+    {
+      "category": "Econometric Methods and Inference",
+      "title": "Good Controls Gone Bad: Difference-in-Differences with Covariates",
+      "authors": "Sunny Karim and Matthew D. Webb",
+      "status": "Working paper",
+      "summary": "Studies identification with time-varying covariates and introduces the Intersection Difference-in-Differences (DID-INT) estimator.",
+      "links": [
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2412.14447"},
+        {"label": "DID-INT software", "url": "software.qmd#did-int"}
+      ]
+    },
+    {
+      "category": "Econometric Methods and Inference",
+      "title": "Jackknife Inference with Two-Way Clustering",
+      "authors": "James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb",
+      "status": "Working paper",
+      "summary": "Develops jackknife variance estimators and inference methods for linear models with clustering in two dimensions.",
+      "links": [
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2406.08880"},
+        {"label": "Software", "url": "software.qmd#twowayjack"},
+        {"label": "Watch video", "url": "https://www.youtube.com/watch?v=9UorOgryxzc"}
+      ]
+    },
+    {
+      "category": "Econometric Methods and Inference",
+      "title": "Difference-in-Differences with Unpoolable Data",
+      "authors": "Sunny Karim, Nichole Austin, Erin Strumpf, and Matthew D. Webb",
+      "status": "Working paper",
+      "summary": "Develops UN-DID methods for estimating treatment effects when data held in separate silos cannot be pooled.",
+      "links": [
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2403.15910"},
+        {"label": "UN-DID software", "url": "software.qmd#un-did"}
+      ]
+    },
+    {
+      "category": "Applied Microeconomics",
+      "title": "The Many Misspellings of Albuquerque: A Comment on 'Sorting or Steering: The Effects of Housing Discrimination on Neighborhood Choice'",
+      "authors": "Shi Chen, Areez Gangji, Sunny Karim, Anthony McCanny, and Matthew D. Webb",
+      "status": "Resubmitted; second round of revisions requested at the Journal of Political Economy",
+      "summary": "No public manuscript link is currently listed.",
+      "links": []
+    },
+    {
+      "category": "Applied Microeconomics",
+      "title": "Gun Licenses, Restricted Firearms, Deaths and Crime: Results from Administrative Data in Canada",
+      "authors": "Derek Mikola and Matthew D. Webb",
+      "status": "Working paper",
+      "summary": "Uses Canadian administrative data to study legal firearm ownership, deaths, and crime.",
+      "links": [
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2607.20667"},
+        {"label": "Watch video", "url": "https://www.youtube.com/watch?v=Xw9flgTArOs"},
+        {"label": "Replication repository", "url": "https://github.com/mattdwebb/CDN-PAL"}
+      ]
+    }
+  ],
+  "published": [
+    {
+      "title": "A Comment on 'Delivering Remote Learning Using a Low-Tech Solution: Evidence from a Randomized Controlled Trial in Bangladesh'",
+      "authors": "Lenka Fiala, Jack Fitzgerald, Essi Kujansuu, Derek Mikola, David Valenta, Juan P. Aparicio, Michael Wiebe, Matthew D. Webb, and Abel Brodeur",
+      "venue": "Accepted at Journal of Political Economy Microeconomics",
+      "year": 2026,
+      "group": "Economics"
+    },
+    {
+      "title": "Choosing Portfolios of Rival Risky Options: Evidence That Most People Violate the No Safety Schools Theorem",
+      "authors": "David B. Johnson and Matthew D. Webb",
+      "venue": "Journal of the Economic Science Association 11(2), 173-197",
+      "year": 2025,
+      "group": "Economics",
+      "url": "https://doi.org/10.1017/esa.2025.10018",
+      "video": "https://www.youtube.com/watch?v=5Mof7gKq5aw"
+    },
+    {
+      "title": "Cluster-Robust Jackknife and Bootstrap Inference for Binary Response Models",
+      "authors": "James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb",
+      "venue": "Forthcoming, Econometric Reviews",
+      "year": 2025,
+      "group": "Economics",
+      "url": "https://doi.org/10.1080/07474938.2025.2515161",
+      "preprint": "https://arxiv.org/abs/2406.00650"
+    },
+    {
+      "title": "Leverage, Influence, and the Jackknife in Clustered Regression Models: Reliable Inference Using summclust",
+      "authors": "James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb",
+      "venue": "Stata Journal 23(4), 942-982",
+      "year": 2023,
+      "group": "Economics",
+      "url": "https://www.econ.queensu.ca/research/working-papers/1483"
+    },
+    {
+      "title": "Testing for the Appropriate Level of Clustering in Linear Regression Models",
+      "authors": "James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb",
+      "venue": "Journal of Econometrics 235, 2027-2056",
+      "year": 2023,
+      "group": "Economics",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0304407623001021",
+      "video": "https://www.youtube.com/watch?v=WD6zK7kTu8s"
+    },
+    {
+      "title": "Fast and Reliable Jackknife and Bootstrap Methods for Cluster-Robust Inference",
+      "authors": "James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb",
+      "venue": "Journal of Applied Econometrics 38(5), 671-694",
+      "year": 2023,
+      "group": "Economics",
+      "url": "https://doi.org/10.1002/jae.2969"
+    },
+    {
+      "title": "Finish It and It's Free: An Evaluation of College Graduation Subsidies",
+      "authors": "Derek Mikola and Matthew D. Webb",
+      "venue": "Economics of Education Review 93, 102355",
+      "year": 2023,
+      "group": "Economics",
+      "url": "https://doi.org/10.1016/j.econedurev.2023.102355",
+      "video": "https://www.youtube.com/watch?v=eevtajSwkR4"
+    },
+    {
+      "title": "Reworking Wild Bootstrap-Based Inference for Clustered Errors",
+      "authors": "Matthew D. Webb",
+      "venue": "Canadian Journal of Economics 56(3), 839-858",
+      "year": 2023,
+      "group": "Economics",
+      "url": "https://doi.org/10.1111/caje.12661",
+      "video": "https://www.youtube.com/watch?v=d_EeewcmZW0"
+    },
+    {
+      "title": "Cluster-Robust Inference: A Guide to Empirical Practice",
+      "authors": "James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb",
+      "venue": "Journal of Econometrics 232, 272-299",
+      "year": 2023,
+      "group": "Economics",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0304407622000781",
+      "video": "https://www.youtube.com/watch?v=az_-DVLhslI"
+    },
+    {
+      "title": "Clustering Methods for Statistical Inference",
+      "authors": "James G. MacKinnon and Matthew D. Webb",
+      "venue": "Handbook of Labor, Human Resources and Population Economics",
+      "year": 2023,
+      "group": "Economics",
+      "url": "https://link.springer.com/referenceworkentry/10.1007/978-3-319-57365-6_43-1"
+    },
+    {
+      "title": "Bootstrap and Asymptotic Inference with Multiway Clustering",
+      "authors": "James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb",
+      "venue": "Journal of Business & Economic Statistics 39(2), 505-519",
+      "year": 2021,
+      "group": "Economics",
+      "url": "https://doi.org/10.1080/07350015.2019.1677473"
+    },
+    {
+      "title": "Randomization Inference for Difference-in-Differences with Few Treated Clusters",
+      "authors": "James G. MacKinnon and Matthew D. Webb",
+      "venue": "Journal of Econometrics 218(2), 435-450",
+      "year": 2020,
+      "group": "Economics",
+      "url": "https://doi.org/10.1016/j.jeconom.2020.04.024",
+      "video": "https://www.youtube.com/watch?v=5ZEb_mHAf0w"
+    },
+    {
+      "title": "A Simple, Graphical Procedure for Comparing Multiple Treatment Effects",
+      "authors": "Brennan Thompson and Matthew D. Webb",
+      "venue": "The Econometrics Journal 22(2), 188-205",
+      "year": 2019,
+      "group": "Economics",
+      "url": "https://doi.org/10.1093/ectj/utz006",
+      "video": "https://www.youtube.com/watch?v=Sb4DMVqAmaI"
+    },
+    {
+      "title": "Fast and Wild: Bootstrap Inference in Stata Using boottest",
+      "authors": "David Roodman, James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb",
+      "venue": "Stata Journal 19(1), 4-60",
+      "year": 2019,
+      "group": "Economics",
+      "url": "https://journals.sagepub.com/doi/10.1177/1536867X19830877"
+    },
+    {
+      "title": "Wild Bootstrap Randomization Inference for Few Treated Clusters",
+      "authors": "James G. MacKinnon and Matthew D. Webb",
+      "venue": "Advances in Econometrics 39, 61-85",
+      "year": 2019,
+      "group": "Economics",
+      "url": "https://doi.org/10.1108/S0731-905320190000039003",
+      "video": "https://www.youtube.com/watch?v=YubMK1lhVds"
+    },
+    {
+      "title": "Immigrant Category of Admission of the Parents and Outcomes of the Children: How Far Does the Apple Fall?",
+      "authors": "Casey Warman, Matthew D. Webb, and Christopher Worswick",
+      "venue": "Journal of Population Economics 32(1), 53-112",
+      "year": 2019,
+      "group": "Economics",
+      "url": "https://doi.org/10.1007/s00148-018-0700-5",
+      "video": "https://www.youtube.com/watch?v=Kfe77hu1m6Y"
+    },
+    {
+      "title": "The Wild Bootstrap for Few (Treated) Clusters",
+      "authors": "James G. MacKinnon and Matthew D. Webb",
+      "venue": "The Econometrics Journal 21(2), 114-135",
+      "year": 2018,
+      "group": "Economics",
+      "url": "https://doi.org/10.1111/ectj.12107"
+    },
+    {
+      "title": "Wild Bootstrap Inference for Wildly Different Cluster Sizes",
+      "authors": "James G. MacKinnon and Matthew D. Webb",
+      "venue": "Journal of Applied Econometrics 32(2), 233-254",
+      "year": 2017,
+      "group": "Economics",
+      "url": "https://doi.org/10.1002/jae.2508",
+      "video": "https://www.youtube.com/watch?v=bJ0FuNhmjOE"
+    },
+    {
+      "title": "Targeting Tax Relief at Youth Employment",
+      "authors": "Arthur Sweetman, Casey Warman, and Matthew D. Webb",
+      "venue": "Canadian Public Policy 42(4), 415-430",
+      "year": 2016,
+      "group": "Economics",
+      "url": "https://doi.org/10.3138/cpp.2014-070",
+      "video": "https://www.youtube.com/watch?v=HO7C09NKrts"
+    },
+    {
+      "title": "Impact of a Peer Comparison Intervention on Seasonal Influenza Vaccine Uptake in Community Pharmacy: A National Cluster Randomized Study",
+      "authors": "Matthew M. Loiacono, Christopher B. Nelson, Paul Grootendorst, Matthew D. Webb, Laura Lee Hall, Jeffrey C. Kwong, Nicholas Mitsakakis, Stacy Zulueta, and Ayman Chit",
+      "venue": "Journal of the American Pharmacists Association 61(5), 539-546",
+      "year": 2021,
+      "group": "Research Beyond Economics",
+      "url": "https://www.sciencedirect.com/science/article/pii/S154431912100159X",
+      "video": "https://www.youtube.com/watch?v=6wgXBoQ1ZFQ"
+    },
+    {
+      "title": "Randomization Inference for Accounting Researchers",
+      "authors": "Roger White and Matthew D. Webb",
+      "venue": "Journal of Financial Reporting 6(2), 129-141",
+      "year": 2021,
+      "group": "Research Beyond Economics",
+      "url": "https://meridian.allenpress.com/jfr/article-abstract/6/2/129/467467/Randomization-Inference-for-Accounting-Researchers"
+    },
+    {
+      "title": "Pitfalls when Estimating Treatment Effects Using Clustered Data",
+      "authors": "James G. MacKinnon and Matthew D. Webb",
+      "venue": "The Political Methodologist 24(2), 20-31",
+      "year": 2017,
+      "group": "Research Beyond Economics",
+      "url": "https://polmeth.org/blog/pitfalls-when-estimating-treatment-effects-using-clustered-data"
+    },
+    {
+      "title": "AI-Assisted Teams Outperform AI-Led Teams but Not Human-Only Teams in Assessing Research Reproducibility in Quantitative Social Science",
+      "authors": "Abel Brodeur, David Valenta, Juan P. Aparicio, Matthew D. Webb, and the project team",
+      "venue": "Forthcoming, Proceedings of the National Academy of Sciences",
+      "year": 2026,
+      "group": "Large Collaboration Papers"
+    },
+    {
+      "title": "Reproducibility and Robustness of Economics and Political Science Research",
+      "authors": "Abel Brodeur, Derek Mikola, Nikolai Cook, Matthew D. Webb, and the project team",
+      "venue": "Nature 652, 151-156",
+      "year": 2026,
+      "group": "Large Collaboration Papers"
+    }
+  ]
+}

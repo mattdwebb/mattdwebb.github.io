@@ -1,7 +1,7 @@
 ---
-title: "Matthew D. Webb"
 description: "Associate Professor of Economics at Carleton University researching applied microeconometrics, causal inference, and machine learning for economic measurement."
 pagetitle: "Matthew D. Webb | Economics, Carleton University"
+page-layout: full
 ---
 
 ::: {.home-intro}
@@ -29,7 +29,7 @@ I develop and apply econometric methods for credible empirical research, with a 
 :::
 
 ::: {.home-photo}
-![Matthew D. Webb outdoors](assets/images/matthew-webb.jpg){fig-alt="Matthew D. Webb outdoors"}
+![](assets/images/matthew-webb.jpg){fig-alt="Matthew D. Webb outdoors"}
 :::
 :::
 
@@ -37,11 +37,19 @@ I develop and apply econometric methods for credible empirical research, with a 
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### Using Images as Covariates
+### Representation Risk in Pretrained Image Encoders
 
-Measuring curb appeal with deep learning and integrating image-derived information into economic models.
+Why plausible pretrained image encoders can produce materially different conclusions, and how representation selection, combination, robustness, uncertainty, and computational cost change the choice.
 
-[Paper](https://arxiv.org/abs/2403.19915) · [Research overview](research.qmd#ai-machine-learning-and-economic-measurement)
+[ICLR 2027 submission](research.qmd#ai-machine-learning-and-economic-measurement) · Public manuscript link forthcoming
+:::
+
+::: {.feature-card}
+### Images as Covariates: Incorporating Missing Information from Structured Data
+
+When images add predictive information beyond structured data, with applications spanning housing, Thoroughbred horses, and researcher profiles.
+
+[2026 working paper](research.qmd#ai-machine-learning-and-economic-measurement) · Public manuscript link forthcoming
 :::
 
 ::: {.feature-card}
@@ -52,13 +60,6 @@ Cluster-jackknife inference for modern difference-in-differences estimators.
 [Paper](https://arxiv.org/abs/2602.12043) · [Watch video](https://www.youtube.com/watch?v=8xLv7Bu-_l0)
 :::
 
-::: {.feature-card}
-### DID-INT and UN-DID
-
-Methods for difference-in-differences with covariate-effect heterogeneity and with data that cannot be pooled.
-
-[DID-INT](https://arxiv.org/abs/2412.14447) · [UN-DID](https://arxiv.org/abs/2403.15910)
-:::
 :::
 
 ## Research Software
@@ -69,7 +70,7 @@ The [Software page](software.qmd) is a curated guide to implementations of my re
 
 ::: {.video-feature}
 ::: {.video-thumb}
-[![Thumbnail for Cluster-robust inference: A guide to empirical practice](https://i.ytimg.com/vi/az_-DVLhslI/hqdefault.jpg){fig-alt="Thumbnail for the video Cluster-robust inference: A guide to empirical practice"}](https://www.youtube.com/watch?v=az_-DVLhslI)
+[![](https://i.ytimg.com/vi/az_-DVLhslI/hqdefault.jpg){fig-alt="Thumbnail for the video Cluster-robust inference: A guide to empirical practice"}](https://www.youtube.com/watch?v=az_-DVLhslI)
 :::
 ::: {.video-copy}
 ### Cluster-robust inference: A guide to empirical practice
@@ -79,4 +80,3 @@ A practical introduction to choosing and applying cluster-robust inference metho
 [Watch on YouTube](https://www.youtube.com/watch?v=az_-DVLhslI) · [Published paper](https://www.sciencedirect.com/science/article/pii/S0304407622000781)
 :::
 :::
-

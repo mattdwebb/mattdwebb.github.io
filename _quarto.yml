@@ -1,11 +1,15 @@
 project:
   type: website
   output-dir: _site
+  pre-render: python scripts/generate_pages.py
+  render:
+    - "*.qmd"
 
 website:
   title: "Matthew D. Webb"
   site-url: "https://mattdwebb.github.io/"
   description: "Matthew D. Webb is an Associate Professor of Economics at Carleton University working in applied microeconometrics, causal inference, and machine learning for economic measurement."
+  search: false
   navbar:
     background: light
     foreground: dark
@@ -19,7 +23,7 @@ website:
         text: Teaching
       - href: videos.qmd
         text: Videos
-      - href: files/webb_CV.pdf
+      - href: cv.qmd
         text: CV
       - text: More
         menu:
@@ -46,10 +50,9 @@ website:
 
 format:
   html:
-    theme: none
+    theme: cosmo
     css: styles.css
     toc: false
     smooth-scroll: true
     link-external-newwindow: true
     lang: en
-

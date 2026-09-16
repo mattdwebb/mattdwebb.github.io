@@ -1,0 +1,107 @@
+[
+  {
+    "id": "az_-DVLhslI",
+    "title": "Cluster-robust inference: A guide to empirical practice",
+    "description": "Practical guidance on when cluster-robust inference is needed and how to approach common design and implementation choices.",
+    "related_label": "Published paper",
+    "related_url": "https://www.sciencedirect.com/science/article/pii/S0304407622000781"
+  },
+  {
+    "id": "WD6zK7kTu8s",
+    "title": "Testing for the Appropriate Level of Clustering in Linear Regression Models",
+    "description": "An overview of score-variance tests and the statistical trade-offs involved in choosing a clustering level.",
+    "related_label": "Published paper",
+    "related_url": "https://www.sciencedirect.com/science/article/pii/S0304407623001021"
+  },
+  {
+    "id": "9UorOgryxzc",
+    "title": "Jackknife Inference with Two-Way Clustering",
+    "description": "Jackknife methods designed to improve inference in linear regression models with clustering in two dimensions.",
+    "related_label": "Paper and software",
+    "related_url": "software.qmd#twowayjack"
+  },
+  {
+    "id": "Xw9flgTArOs",
+    "title": "Good Guys With Guns?",
+    "description": "A research overview of Canadian administrative data on legal firearm ownership, deaths, and crime.",
+    "related_label": "arXiv",
+    "related_url": "https://arxiv.org/abs/2607.20667"
+  },
+  {
+    "id": "bJ0FuNhmjOE",
+    "title": "Wild Bootstrap Inference for Wildly Different Cluster Sizes",
+    "description": "Why conventional cluster-robust inference can fail with highly unequal cluster sizes and how wild-bootstrap methods can help.",
+    "related_label": "Published paper",
+    "related_url": "https://doi.org/10.1002/jae.2508"
+  },
+  {
+    "id": "5ZEb_mHAf0w",
+    "title": "Randomization Inference for Difference-in-Differences with Few Treated Clusters",
+    "description": "Randomization-inference procedures for difference-in-differences designs with few treated clusters.",
+    "related_label": "Published paper",
+    "related_url": "https://doi.org/10.1016/j.jeconom.2020.04.024"
+  },
+  {
+    "id": "8xLv7Bu-_l0",
+    "title": "Improved Inference for CSDID Using the Cluster Jackknife",
+    "description": "How the cluster jackknife can provide more reliable inference for the Callaway-Sant'Anna difference-in-differences estimator.",
+    "related_label": "Paper and software",
+    "related_url": "software.qmd#csdid-jackknife"
+  },
+  {
+    "id": "d_EeewcmZW0",
+    "title": "Reworking Wild Bootstrap-Based Inference for Clustered Errors",
+    "description": "A concise account of refinements to wild-cluster-bootstrap inference for settings with few clusters.",
+    "related_label": "Published paper",
+    "related_url": "https://doi.org/10.1111/caje.12661"
+  },
+  {
+    "id": "YubMK1lhVds",
+    "title": "Wild Bootstrap Randomization Inference for Few Treated Clusters",
+    "description": "An introduction to wild-bootstrap randomization inference for clustered designs with a small treated group count.",
+    "related_label": "Published paper",
+    "related_url": "https://doi.org/10.1108/S0731-905320190000039003"
+  },
+  {
+    "id": "6wgXBoQ1ZFQ",
+    "title": "Impact of a Peer Comparison Intervention on Seasonal Influenza Vaccine Uptake in Community Pharmacy",
+    "description": "A short overview of a national cluster-randomized study of peer comparison and influenza vaccination in community pharmacies.",
+    "related_label": "Published paper",
+    "related_url": "https://www.sciencedirect.com/science/article/pii/S154431912100159X"
+  },
+  {
+    "id": "Sb4DMVqAmaI",
+    "title": "A Simple, Graphical Procedure for Comparing Multiple Treatment Effects",
+    "description": "A graphical method for comparing multiple treatment effects against a control and against one another.",
+    "related_label": "Published paper",
+    "related_url": "https://doi.org/10.1093/ectj/utz006"
+  },
+  {
+    "id": "Kfe77hu1m6Y",
+    "title": "Immigrant Parents' Category of Admission and Outcomes of the Children: How Far Does the Apple Fall?",
+    "description": "How immigrant admission categories in Canada relate to the long-run outcomes of children.",
+    "related_label": "Published paper",
+    "related_url": "https://doi.org/10.1007/s00148-018-0700-5"
+  },
+  {
+    "id": "HO7C09NKrts",
+    "title": "Targeting Tax Relief at Youth Employment",
+    "description": "Evidence on the employment effects of Canada's Youth Hires payroll-tax-relief program.",
+    "related_label": "Published paper",
+    "related_url": "https://doi.org/10.3138/cpp.2014-070"
+  },
+  {
+    "id": "eevtajSwkR4",
+    "title": "Finish It and It's Free: An Evaluation of College Graduation Subsidies",
+    "description": "An evaluation of Canadian graduate tax credits, university completion, and interprovincial mobility.",
+    "related_label": "Published paper",
+    "related_url": "https://doi.org/10.1016/j.econedurev.2023.102355"
+  },
+  {
+    "id": "5Mof7gKq5aw",
+    "title": "Choosing Portfolios of Rival Risky Options: Most People Violate the No Safety Schools Theorem",
+    "description": "Experimental evidence on how people choose portfolios when options are risky and rival.",
+    "related_label": "Published paper",
+    "related_url": "https://doi.org/10.1017/esa.2025.10018"
+  }
+]

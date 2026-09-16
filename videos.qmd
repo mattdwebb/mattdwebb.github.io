@@ -1,0 +1,146 @@
+---
+title: "Videos"
+description: "Short research and econometrics videos from Matthew D. Webb, with links to the associated papers and software."
+---
+
+<!-- Generated from data/videos.json by scripts/generate_pages.py. -->
+
+Short research explainers and software-oriented introductions from [MattWebbEcon on YouTube](https://youtube.com/@MattWebbEcon). Thumbnails link to YouTube; no tracking-heavy iframe wall is embedded on this page.
+
+::: {.video-grid}
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/az_-DVLhslI/hqdefault.jpg" alt="Thumbnail for Cluster-robust inference: A guide to empirical practice" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=az_-DVLhslI)
+
+### Cluster-robust inference: A guide to empirical practice
+
+Practical guidance on when cluster-robust inference is needed and how to approach common design and implementation choices.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=az_-DVLhslI) · [Published paper](https://www.sciencedirect.com/science/article/pii/S0304407622000781)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/WD6zK7kTu8s/hqdefault.jpg" alt="Thumbnail for Testing for the Appropriate Level of Clustering in Linear Regression Models" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=WD6zK7kTu8s)
+
+### Testing for the Appropriate Level of Clustering in Linear Regression Models
+
+An overview of score-variance tests and the statistical trade-offs involved in choosing a clustering level.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=WD6zK7kTu8s) · [Published paper](https://www.sciencedirect.com/science/article/pii/S0304407623001021)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/9UorOgryxzc/hqdefault.jpg" alt="Thumbnail for Jackknife Inference with Two-Way Clustering" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=9UorOgryxzc)
+
+### Jackknife Inference with Two-Way Clustering
+
+Jackknife methods designed to improve inference in linear regression models with clustering in two dimensions.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=9UorOgryxzc) · [Paper and software](software.qmd#twowayjack)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/Xw9flgTArOs/hqdefault.jpg" alt="Thumbnail for Good Guys With Guns?" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=Xw9flgTArOs)
+
+### Good Guys With Guns?
+
+A research overview of Canadian administrative data on legal firearm ownership, deaths, and crime.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=Xw9flgTArOs) · [arXiv](https://arxiv.org/abs/2607.20667)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/bJ0FuNhmjOE/hqdefault.jpg" alt="Thumbnail for Wild Bootstrap Inference for Wildly Different Cluster Sizes" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=bJ0FuNhmjOE)
+
+### Wild Bootstrap Inference for Wildly Different Cluster Sizes
+
+Why conventional cluster-robust inference can fail with highly unequal cluster sizes and how wild-bootstrap methods can help.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=bJ0FuNhmjOE) · [Published paper](https://doi.org/10.1002/jae.2508)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/5ZEb_mHAf0w/hqdefault.jpg" alt="Thumbnail for Randomization Inference for Difference-in-Differences with Few Treated Clusters" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=5ZEb_mHAf0w)
+
+### Randomization Inference for Difference-in-Differences with Few Treated Clusters
+
+Randomization-inference procedures for difference-in-differences designs with few treated clusters.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=5ZEb_mHAf0w) · [Published paper](https://doi.org/10.1016/j.jeconom.2020.04.024)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/8xLv7Bu-_l0/hqdefault.jpg" alt="Thumbnail for Improved Inference for CSDID Using the Cluster Jackknife" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=8xLv7Bu-_l0)
+
+### Improved Inference for CSDID Using the Cluster Jackknife
+
+How the cluster jackknife can provide more reliable inference for the Callaway-Sant'Anna difference-in-differences estimator.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=8xLv7Bu-_l0) · [Paper and software](software.qmd#csdid-jackknife)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/d_EeewcmZW0/hqdefault.jpg" alt="Thumbnail for Reworking Wild Bootstrap-Based Inference for Clustered Errors" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=d_EeewcmZW0)
+
+### Reworking Wild Bootstrap-Based Inference for Clustered Errors
+
+A concise account of refinements to wild-cluster-bootstrap inference for settings with few clusters.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=d_EeewcmZW0) · [Published paper](https://doi.org/10.1111/caje.12661)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/YubMK1lhVds/hqdefault.jpg" alt="Thumbnail for Wild Bootstrap Randomization Inference for Few Treated Clusters" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=YubMK1lhVds)
+
+### Wild Bootstrap Randomization Inference for Few Treated Clusters
+
+An introduction to wild-bootstrap randomization inference for clustered designs with a small treated group count.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=YubMK1lhVds) · [Published paper](https://doi.org/10.1108/S0731-905320190000039003)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/6wgXBoQ1ZFQ/hqdefault.jpg" alt="Thumbnail for Impact of a Peer Comparison Intervention on Seasonal Influenza Vaccine Uptake in Community Pharmacy" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=6wgXBoQ1ZFQ)
+
+### Impact of a Peer Comparison Intervention on Seasonal Influenza Vaccine Uptake in Community Pharmacy
+
+A short overview of a national cluster-randomized study of peer comparison and influenza vaccination in community pharmacies.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=6wgXBoQ1ZFQ) · [Published paper](https://www.sciencedirect.com/science/article/pii/S154431912100159X)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/Sb4DMVqAmaI/hqdefault.jpg" alt="Thumbnail for A Simple, Graphical Procedure for Comparing Multiple Treatment Effects" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=Sb4DMVqAmaI)
+
+### A Simple, Graphical Procedure for Comparing Multiple Treatment Effects
+
+A graphical method for comparing multiple treatment effects against a control and against one another.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=Sb4DMVqAmaI) · [Published paper](https://doi.org/10.1093/ectj/utz006)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/Kfe77hu1m6Y/hqdefault.jpg" alt="Thumbnail for Immigrant Parents&#x27; Category of Admission and Outcomes of the Children: How Far Does the Apple Fall?" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=Kfe77hu1m6Y)
+
+### Immigrant Parents' Category of Admission and Outcomes of the Children: How Far Does the Apple Fall?
+
+How immigrant admission categories in Canada relate to the long-run outcomes of children.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=Kfe77hu1m6Y) · [Published paper](https://doi.org/10.1007/s00148-018-0700-5)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/HO7C09NKrts/hqdefault.jpg" alt="Thumbnail for Targeting Tax Relief at Youth Employment" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=HO7C09NKrts)
+
+### Targeting Tax Relief at Youth Employment
+
+Evidence on the employment effects of Canada's Youth Hires payroll-tax-relief program.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=HO7C09NKrts) · [Published paper](https://doi.org/10.3138/cpp.2014-070)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/eevtajSwkR4/hqdefault.jpg" alt="Thumbnail for Finish It and It&#x27;s Free: An Evaluation of College Graduation Subsidies" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=eevtajSwkR4)
+
+### Finish It and It's Free: An Evaluation of College Graduation Subsidies
+
+An evaluation of Canadian graduate tax credits, university completion, and interprovincial mobility.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=eevtajSwkR4) · [Published paper](https://doi.org/10.1016/j.econedurev.2023.102355)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/5Mof7gKq5aw/hqdefault.jpg" alt="Thumbnail for Choosing Portfolios of Rival Risky Options: Most People Violate the No Safety Schools Theorem" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=5Mof7gKq5aw)
+
+### Choosing Portfolios of Rival Risky Options: Most People Violate the No Safety Schools Theorem
+
+Experimental evidence on how people choose portfolios when options are risky and rival.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=5Mof7gKq5aw) · [Published paper](https://doi.org/10.1017/esa.2025.10018)
+:::
+:::

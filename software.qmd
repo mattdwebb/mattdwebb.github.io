@@ -1,0 +1,306 @@
+---
+title: "Research Software"
+description: "A method-first guide to econometric software associated with Matthew D. Webb's research, with verified installation channels and transparent implementation credit."
+toc: true
+toc-title: "Software families"
+---
+
+<!-- Generated from data/software.json by scripts/generate_pages.py. -->
+
+This page is organized by research method rather than repository. Registry labels and installation commands are shown at the implementation level. Forked repositories are linked to their upstream authors so implementation credit remains explicit.
+
+## summclust {#summclust}
+
+Cluster-level leverage and influence diagnostics and cluster-jackknife variance estimation for linear regression models.
+
+### Implementations
+
+::: {.implementation}
+#### summclust — Stata <span class="registry-pill">SSC</span>
+
+**Implementation:** Matthew D. Webb  
+**Role:** Original implementation
+
+[SSC](https://ideas.repec.org/c/boc/bocode/s459072.html) · [GitHub](https://github.com/mattdwebb/summclust) · [Documentation](https://github.com/mattdwebb/summclust/blob/main/summclust.sthlp)
+
+**Install**
+
+```stata
+ssc install summclust
+```
+:::
+
+### Associated paper
+
+[MacKinnon, James G., Morten Ørregaard Nielsen, and Matthew D. Webb. 2023. 'Leverage, Influence, and the Jackknife in Clustered Regression Models: Reliable Inference Using summclust.' Stata Journal 23(4): 942-982.](https://www.econ.queensu.ca/research/working-papers/1483)
+
+### How to cite
+
+Please cite the associated Stata Journal article when the method or software contributes to published research.
+
+---
+
+## logitjack {#logitjack}
+
+Cluster-jackknife and wild-cluster-bootstrap inference for logistic regression models.
+
+### Implementations
+
+::: {.implementation}
+#### logitjack — Stata <span class="registry-pill">SSC</span>
+
+**Implementation:** Matthew D. Webb  
+**Role:** Original implementation
+
+[SSC](https://ideas.repec.org/c/boc/bocode/s459337.html) · [GitHub](https://github.com/mattdwebb/logitjack) · [Documentation](https://github.com/mattdwebb/logitjack/blob/main/logitjack.sthlp)
+
+**Install**
+
+```stata
+ssc install logitjack
+```
+:::
+
+### Associated paper
+
+[MacKinnon, James G., Morten Ørregaard Nielsen, and Matthew D. Webb. 'Cluster-Robust Jackknife and Bootstrap Inference for Binary Response Models.' Forthcoming, Econometric Reviews.](https://arxiv.org/abs/2406.00650)
+
+### How to cite
+
+Please cite the associated Econometric Reviews article; the SSC record also provides a software citation.
+
+---
+
+## twowayjack {#twowayjack}
+
+Jackknife variance estimation and inference for linear regression models with two-way clustering.
+
+[Watch video](https://www.youtube.com/watch?v=9UorOgryxzc)
+
+### Implementations
+
+::: {.implementation}
+#### twowayjack — Stata <span class="registry-pill">GitHub only</span>
+
+**Implementation:** Matthew D. Webb  
+**Role:** Original implementation
+
+[GitHub](https://github.com/mattdwebb/twowayjack) · [Documentation](https://github.com/mattdwebb/twowayjack/blob/main/twowayjack.sthlp)
+
+**Install**
+
+```stata
+net install twowayjack, from("https://raw.githubusercontent.com/mattdwebb/twowayjack/main/") replace
+```
+:::
+
+### Associated paper
+
+[MacKinnon, James G., Morten Ørregaard Nielsen, and Matthew D. Webb. 2024. 'Jackknife Inference with Two-Way Clustering.' arXiv:2406.08880.](https://arxiv.org/abs/2406.08880)
+
+### How to cite
+
+Please cite the associated paper when using the method or implementation.
+
+---
+
+## mnwsvt {#mnwsvt}
+
+Score-variance tests for choosing the appropriate level of clustering in linear regression models.
+
+[Watch video](https://www.youtube.com/watch?v=WD6zK7kTu8s)
+
+### Implementations
+
+::: {.implementation}
+#### mnwsvt — Stata <span class="registry-pill">GitHub only</span>
+
+**Implementation:** Matthew D. Webb  
+**Role:** Original implementation
+
+[GitHub](https://github.com/mattdwebb/mnwsvt) · [Documentation](https://github.com/mattdwebb/mnwsvt)
+
+**Install**
+
+```stata
+net install mnwsvt, from("https://raw.githubusercontent.com/mattdwebb/mnwsvt/main/") replace
+```
+:::
+
+::: {.implementation}
+#### mnwsvt — R <span class="registry-pill">GitHub only</span>
+
+**Implementation:** Tonghui Tian  
+**Role:** R implementation by a research assistant
+
+[GitHub](https://github.com/tttthhtysx/MNW) · [Documentation](https://github.com/tttthhtysx/MNW)
+
+<p class="link-note">No package-manager installation is documented; use the upstream repository files directly.</p>
+:::
+
+### Associated paper
+
+[MacKinnon, James G., Morten Ørregaard Nielsen, and Matthew D. Webb. 2023. 'Testing for the Appropriate Level of Clustering in Linear Regression Models.' Journal of Econometrics 235: 2027-2056.](https://www.sciencedirect.com/science/article/pii/S0304407623001021)
+
+### How to cite
+
+Please cite the associated Journal of Econometrics article.
+
+---
+
+## CSDID cluster-jackknife inference {#csdid-jackknife}
+
+Cluster-jackknife (CV3) inference for the Callaway-Sant'Anna difference-in-differences estimator.
+
+[Watch video](https://www.youtube.com/watch?v=8xLv7Bu-_l0)
+
+### Implementations
+
+::: {.implementation}
+#### csdidjack — Stata <span class="registry-pill">GitHub only</span>
+
+**Implementation:** Yunhan Liu  
+**Role:** Stata implementation by a research assistant
+
+[GitHub](https://github.com/liu-yunhan/csdidjack) · [Documentation](https://github.com/liu-yunhan/csdidjack#readme)
+
+**Install**
+
+```stata
+net install csdidjack, from("https://raw.githubusercontent.com/liu-yunhan/csdidjack/main/") replace
+```
+:::
+
+::: {.implementation}
+#### didjack — R <span class="registry-pill">GitHub only</span>
+
+**Implementation:** Yunhan Liu  
+**Role:** R implementation by a research assistant
+
+[GitHub](https://github.com/liu-yunhan/didjack) · [Documentation](https://github.com/liu-yunhan/didjack#readme)
+
+**Install**
+
+```r
+remotes::install_github("liu-yunhan/didjack")
+```
+:::
+
+### Associated paper
+
+[Karim, Sunny R., Morten Ørregaard Nielsen, James G. MacKinnon, and Matthew D. Webb. 2026. 'Improved Inference for CSDID Using the Cluster Jackknife.' arXiv:2602.12043.](https://arxiv.org/abs/2602.12043)
+
+### How to cite
+
+Please cite the associated paper. Implementation credit belongs to Yunhan Liu, not Matthew Webb.
+
+---
+
+## DID-INT {#did-int}
+
+Intersection Difference-in-Differences estimation for settings in which covariate effects may vary across states, time, or both.
+
+### Implementations
+
+::: {.implementation}
+#### DiDInt.jl — Julia <span class="registry-pill">Julia General Registry</span>
+
+**Implementation:** Eric Jamieson  
+**Role:** Julia implementation by a research assistant
+
+[Julia General Registry](https://github.com/JuliaRegistries/General/tree/master/D/DiDInt) · [GitHub](https://github.com/ebjamieson97/DiDInt.jl) · [Documentation](https://github.com/ebjamieson97/DiDInt.jl#readme)
+
+**Install**
+
+```julia
+using Pkg
+Pkg.add("DiDInt")
+```
+:::
+
+### Associated paper
+
+[Karim, Sunny, and Matthew D. Webb. 2024. 'Good Controls Gone Bad: Difference-in-Differences with Covariates.' arXiv:2412.14447.](https://arxiv.org/abs/2412.14447)
+
+### How to cite
+
+Please cite the associated paper. The Julia implementation was written by Eric Jamieson.
+
+---
+
+## UN-DID {#un-did}
+
+Difference-in-differences for data held in separate silos that cannot be pooled, with implementations for four programming languages.
+
+### Implementations
+
+::: {.implementation}
+#### undid — Stata <span class="registry-pill">SSC</span>
+
+**Implementation:** Eric Jamieson  
+**Role:** Stata implementation by a research assistant
+
+[SSC](https://ideas.repec.org/c/boc/bocode/s459516.html) · [GitHub](https://github.com/ebjamieson97/undid) · [Documentation](https://github.com/ebjamieson97/undid#readme)
+
+**Install**
+
+```stata
+ssc install undid
+```
+:::
+
+::: {.implementation}
+#### undidR — R <span class="registry-pill">CRAN</span>
+
+**Implementation:** Eric Jamieson  
+**Role:** R implementation by a research assistant
+
+[CRAN](https://cran.r-project.org/package=undidR) · [GitHub](https://github.com/ebjamieson97/undidR) · [Documentation](https://ebjamieson97.github.io/undidR/)
+
+**Install**
+
+```r
+install.packages("undidR")
+```
+:::
+
+::: {.implementation}
+#### Undid.jl — Julia <span class="registry-pill">GitHub only</span>
+
+**Implementation:** Eric Jamieson  
+**Role:** Julia implementation by a research assistant
+
+[GitHub](https://github.com/ebjamieson97/Undid.jl) · [Documentation](https://github.com/ebjamieson97/Undid.jl#readme)
+
+**Install**
+
+```julia
+using Pkg
+Pkg.add(url="https://github.com/ebjamieson97/Undid.jl")
+```
+:::
+
+::: {.implementation}
+#### undidPyjl — Python <span class="registry-pill">PyPI</span>
+
+**Implementation:** Eric Jamieson  
+**Role:** Python wrapper by a research assistant
+
+[PyPI](https://pypi.org/project/undidPyjl/) · [GitHub](https://github.com/ebjamieson97/undidPyjl) · [Documentation](https://github.com/ebjamieson97/undidPyjl#readme)
+
+**Install**
+
+```bash
+pip install undidPyjl
+```
+:::
+
+### Associated paper
+
+[Karim, Sunny, Nichole Austin, Erin Strumpf, and Matthew D. Webb. 2025. 'Difference-in-Differences with Unpoolable Data.' arXiv:2403.15910.](https://arxiv.org/abs/2403.15910)
+
+### How to cite
+
+Please cite the underlying UN-DID paper. All listed language implementations were written by Eric Jamieson.
+
+---

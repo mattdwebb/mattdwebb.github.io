@@ -1,0 +1,12 @@
+---
+title: "Curriculum Vitae"
+description: "Curriculum vitae for Matthew D. Webb, Associate Professor of Economics at Carleton University."
+page-layout: full
+---
+
+<div class="cv-page-intro">
+  <p>The CV is displayed below. If the embedded viewer is unavailable on your device, open the PDF in a separate browser tab.</p>
+  <p><a class="button button-primary" href="files/webb_CV.pdf" target="_blank" rel="noopener">Open CV full screen</a></p>
+</div>
+
+<iframe class="cv-viewer" src="files/webb_CV.pdf#view=FitH" title="Matthew D. Webb curriculum vitae"></iframe>

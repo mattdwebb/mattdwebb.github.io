@@ -23,7 +23,7 @@ website:
         text: Teaching
       - href: videos.qmd
         text: Videos
-      - href: "https://github.com/mattdwebb/cv/blob/main/webb_CV.pdf"
+      - href: cv.qmd
         text: CV
       - text: More
         menu:

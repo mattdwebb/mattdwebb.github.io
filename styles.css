@@ -325,6 +325,21 @@ h3 {
 
 .feature-card p:last-child { margin-bottom: 0; }
 
+.cv-page-intro {
+  max-width: 72rem;
+  margin: 0 auto 1rem;
+}
+
+.cv-viewer {
+  display: block;
+  width: min(100%, 72rem);
+  height: calc(100vh - 14rem);
+  min-height: 48rem;
+  margin: 0 auto;
+  border: 1px solid var(--line);
+  background: var(--soft);
+}
+
 .video-feature {
   display: grid;
   grid-template-columns: minmax(16rem, .8fr) minmax(0, 1.2fr);
@@ -367,6 +382,7 @@ h3 {
   .home-photo img { box-shadow: .7rem .7rem 0 var(--soft); }
   .video-feature { grid-template-columns: 1fr; padding: .9rem; }
   .video-grid, .teaching-grid { grid-template-columns: 1fr; }
+  .cv-viewer { min-height: 36rem; height: 72vh; }
   h2 { margin-top: 3.2rem; }
 }
 

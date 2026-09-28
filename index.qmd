@@ -15,7 +15,7 @@ page-layout: full
 I develop and apply econometric methods for credible empirical research, with a particular focus on inference with clustered data and difference-in-differences designs. My current work also uses machine learning and AI to measure economically meaningful features in images and other complex data.
 
 <div class="button-row">
-  <a class="button button-primary" href="https://raw.githubusercontent.com/mattdwebb/cv/main/webb_CV.pdf" target="_blank" rel="noopener">View CV</a>
+  <a class="button button-primary" href="https://github.com/mattdwebb/cv/blob/main/webb_CV.pdf" target="_blank" rel="noopener">View CV</a>
   <a class="button" href="research.qmd">Research</a>
   <a class="button" href="software.qmd">Research software</a>
 </div>

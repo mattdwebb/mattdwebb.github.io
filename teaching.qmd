@@ -9,6 +9,14 @@ My teaching centers on applied econometrics, data science, and empirical researc
 
 ::: {.teaching-grid}
 ::: {.teaching-card}
+### Economic Data Science
+
+**ECON 5708/4708 · Carleton University · in progress**
+
+Tools and workflows for economic research with modern data and computational methods.
+:::
+
+::: {.teaching-card}
 ### Microeconometrics
 
 **ECON 5712 · Carleton University**
@@ -17,7 +25,7 @@ Graduate methods for credible empirical microeconomic research, including modern
 :::
 
 ::: {.teaching-card}
-### Economic Data Science
+### Special Topics: Economic Data Science
 
 **ECON 5880 · Special Topics · Carleton University**
 

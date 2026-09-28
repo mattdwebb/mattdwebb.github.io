@@ -1,82 +1,64 @@
 ---
-title: "Conferences"
-description: "Conference organization and selected professional activities by Matthew D. Webb."
+title: "Talks and Conferences"
+description: "Upcoming and recent talks, plus conferences I have helped organize."
 ---
 
-Conference organization and professional activities, updated from the current CV and listed newest first.
+## Upcoming Talks
+
+- **Wilfrid Laurier University**, Waterloo — invited seminar, 2026
+- **University of Waterloo** — invited seminar, 2026
+- **Improving Design-Based Inference with Placebo Tests** — Southern Economic Association, Houston, 2026
+- **Which Policy Works, and Where? Estimation and Inference for State-Level Treatment Effects in Difference-in-Differences** — Canadian Econometrics Study Group, Vancouver, 2026
+
+## Recent Talks
+
+- **Which Policy Works, and Where? Estimation and Inference for State-Level Treatment Effects in Difference-in-Differences** — Canadian Economics Association, 2026
+- **Improved Inference for CSDID Using the Cluster Jackknife** — Canadian Economics Association, Vancouver, 2026
+- **Jackknife Inference with Two-Way Clustering** — Celebrating James G. MacKinnon, Aarhus, 2026
+- **University of Alberta** — invited seminar, Edmonton, 2026
+- **McGill University** — invited seminar, Montreal, 2026
+- **Which Policy Works, and Where? Estimation and Inference for State-Level Treatment Effects in Difference-in-Differences** — Southern Economic Association, Tampa, 2025
+- **Jackknife Inference for Multiway Clustering and CS-DiD in Stata: twowayjack and csdidjack** — Canadian Stata Conference, Ottawa, 2025
+- **Bank of Mexico** — invited seminar, Mexico City, 2025
 
 ## Conference Organization
 
 ::: {.timeline}
 ::: {.timeline-item}
-### Western Economic Association International Annual Conference, Denver
+### [40th Canadian Econometrics Study Group](https://caneconometrics.ca/annualMeeting/current/old_files/old_details1/)
 
-**Program Committee, Econometrics · ongoing**
+**Co-organizer · Ottawa · 2025**
 :::
 
 ::: {.timeline-item}
-### Canadian Econometrics Study Group #40
+### [Celebrating James G. MacKinnon](https://www.econ.queensu.ca/about/events/celebrating-james-mackinnon-conference)
 
 **Co-organizer · 2025**
 :::
 
 ::: {.timeline-item}
-### Celebrating James G. MacKinnon
-
-**Co-organizer · 2025**<br>
-Conference and festschrift activities recognizing James MacKinnon's contributions to econometrics.
-:::
-
-::: {.timeline-item}
-### Western Economic Association International Annual Conference, San Francisco
-
-**Program Committee, Econometrics · 2025**
-:::
-
-::: {.timeline-item}
-### Canadian Econometrics Study Group at the Canadian Economics Association Meetings
-
-**Organizer · 2025**
-:::
-
-::: {.timeline-item}
-### Western Economic Association International Annual Conferences
-
-**Program Committee, Econometrics · Seattle 2024; San Diego 2023; Portland 2022**
-:::
-
-::: {.timeline-item}
-### North American Summer Meeting of the Econometric Society, Montreal
-
-**Program Committee · 2021**
-:::
-
-::: {.timeline-item}
-### Doctoral Workshop in Applied Econometrics
+### Doctoral Workshops in Applied Econometrics
 
 **Co-organizer · 2017–2019**
 :::
 
 ::: {.timeline-item}
-### Canadian Stata Conference
+### [Canadian Stata Conference](https://www.stata.com/meeting/canada19/)
 
-**Chair · 2019**
+**Chair · Banff · 2019**
 :::
 
 ::: {.timeline-item}
-### Canadian Econometrics Study Group #35
+### [35th Canadian Econometrics Study Group](https://caneconometrics.ca/annualMeeting/past/2018/)
 
-**Co-organizer · 2018**
+**Co-organizer · Ottawa · 2018**
+:::
+
+::: {.timeline-item}
+### Calgary Empirical Microeconomics Workshop
+
+**Co-organizer · 2014–2016**
 :::
 :::
 
-## Recent Conference and Workshop Activity
-
-- **2026:** Short course, *Credible Policy Evaluation with Difference-in-Differences*, Toronto Metropolitan University.
-- **2026:** *Improving Design-Based Inference with Placebo Tests*, Southern Economic Association (scheduled in the current CV).
-- **2026:** *Jackknife Inference with Two-Way Clustering*, Celebrating James G. MacKinnon 75th Birthday Conference, Aarhus.
-- **2026:** *Improved Inference for CSDID Using the Cluster Jackknife*, Canadian Economics Association, Vancouver.
-- **2025:** *Which Policy Works and Where? Estimation and Inference of State-Level Treatment Effects Using Difference-in-Differences*, Southern Economic Association and Canadian Economics Association.
-- **2025:** *Jackknife Inference for Multiway Clustering and CS-DiD in Stata: twowayjack and csdidjack*, Canadian Stata Conference.
-
-The [full CV](files/webb_CV.pdf) contains the complete record of invited seminars, conference presentations, discussions, and professional service.
+See [CV](https://raw.githubusercontent.com/mattdwebb/cv/main/webb_CV.pdf) for the full list of invited seminars and conference presentations.

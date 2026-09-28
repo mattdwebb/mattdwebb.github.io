@@ -32,6 +32,8 @@ a {
 
 a:hover, a:focus { color: var(--accent); }
 
+main.content a:not(.button) { text-decoration-line: underline; }
+
 .navbar {
   min-height: 4.25rem;
   border-bottom: 1px solid var(--line);

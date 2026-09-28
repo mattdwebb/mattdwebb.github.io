@@ -8,7 +8,7 @@ project:
 website:
   title: "Matthew D. Webb"
   site-url: "https://mattdwebb.github.io/"
-  description: "Matthew D. Webb is an Associate Professor of Economics at Carleton University working in applied microeconometrics, causal inference, and machine learning for economic measurement."
+  description: "Research in applied microeconometrics, causal inference, machine learning for economic measurement, and empirical microeconomics."
   search: false
   navbar:
     background: light
@@ -23,7 +23,7 @@ website:
         text: Teaching
       - href: videos.qmd
         text: Videos
-      - href: cv.qmd
+      - href: "https://raw.githubusercontent.com/mattdwebb/cv/main/webb_CV.pdf"
         text: CV
       - text: More
         menu:

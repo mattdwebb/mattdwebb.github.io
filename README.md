@@ -4,16 +4,10 @@ This repository contains the source for <https://mattdwebb.github.io/>, built wi
 
 ## Local preview
 
-With a standalone Quarto installation:
+With Quarto installed:
 
 ```powershell
 quarto preview
-```
-
-On the current Windows machine, Quarto is bundled with RStudio:
-
-```powershell
-& "C:\Program Files\RStudio\resources\app\bin\quarto\bin\quarto.exe" preview
 ```
 
 If Dropbox temporarily locks Quarto's generated `.quarto` cache, copy the repository to a temporary non-synced directory for preview. Source files should still be edited and committed in this repository.
@@ -45,7 +39,7 @@ Add a record to `data/videos.json` with the YouTube video ID, verified title, co
 
 ### Change the CV
 
-Replace `files/webb_CV.pdf` with the new PDF using the same filename, then check the homepage and CV page links.
+Update `webb_CV.pdf` in the `mattdwebb/cv` repository; the website CV link then automatically uses the new file.
 
 ## Build and checks
 

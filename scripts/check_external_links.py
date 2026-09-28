@@ -52,10 +52,14 @@ def check(url: str) -> tuple[str, int | None, str]:
                 error = retry_error
             except URLError as retry_error:
                 return url, None, str(retry_error.reason)
+            except TimeoutError:
+                return url, None, "request timed out"
         status = "broken" if error.code in {404, 410} else "blocked"
         return url, error.code, status
     except URLError as error:
         return url, None, str(error.reason)
+    except TimeoutError:
+        return url, None, "request timed out"
 
 
 def main() -> int:

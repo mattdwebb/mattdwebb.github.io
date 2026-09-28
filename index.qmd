@@ -15,7 +15,7 @@ page-layout: full
 I develop and apply econometric methods for credible empirical research, with a particular focus on inference with clustered data and difference-in-differences designs. My current work also uses machine learning and AI to measure economically meaningful features in images and other complex data.
 
 <div class="button-row">
-  <a class="button button-primary" href="files/webb_CV.pdf">Download CV</a>
+  <a class="button button-primary" href="https://raw.githubusercontent.com/mattdwebb/cv/main/webb_CV.pdf" target="_blank" rel="noopener">View CV</a>
   <a class="button" href="research.qmd">Research</a>
   <a class="button" href="software.qmd">Research software</a>
 </div>
@@ -37,19 +37,11 @@ I develop and apply econometric methods for credible empirical research, with a 
 
 ::: {.feature-grid}
 ::: {.feature-card}
-### Representation Risk in Pretrained Image Encoders
+### Good Controls Gone Bad: Difference-in-Differences with Covariates
 
-Why plausible pretrained image encoders can produce materially different conclusions, and how representation selection, combination, robustness, uncertainty, and computational cost change the choice.
+Studies identification with time-varying covariates and introduces the Intersection Difference-in-Differences (DID-INT) estimator.
 
-[ICLR 2027 submission](research.qmd#ai-machine-learning-and-economic-measurement) · Public manuscript link forthcoming
-:::
-
-::: {.feature-card}
-### Images as Covariates: Incorporating Missing Information from Structured Data
-
-When images add predictive information beyond structured data, with applications spanning housing, Thoroughbred horses, and researcher profiles.
-
-[2026 working paper](research.qmd#ai-machine-learning-and-economic-measurement) · Public manuscript link forthcoming
+[Paper](https://arxiv.org/abs/2412.14447) · [Software](software.qmd#did-int)
 :::
 
 ::: {.feature-card}

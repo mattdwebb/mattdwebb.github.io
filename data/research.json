@@ -3,11 +3,13 @@
     {
       "category": "AI, Machine Learning, and Economic Measurement",
       "title": "Representation Risk in Pretrained Image Encoders",
-      "status": "ICLR 2027 submission",
+      "status": "Submitted",
       "summary": "Studies representation risk: different plausible pretrained image encoders applied to the same images can produce materially different downstream conclusions. The paper compares modern and legacy encoders across economic, medical, biological, and demographic tasks and studies representation selection, combination, robustness, uncertainty, computational cost, and a reproducible software framework.",
-      "links": [],
+      "links": [
+        {"label": "Software", "url": "software.qmd#lookagain-ml"}
+      ],
       "public_url": null,
-      "link_note": "A public manuscript link will be added when an arXiv version is available. The anonymous submission PDF is not distributed here."
+      "public": true
     },
     {
       "category": "AI, Machine Learning, and Economic Measurement",
@@ -16,7 +18,17 @@
       "summary": "Asks when images add predictive information beyond an existing structured covariate set. It separates image-only predictability, overlap with structured covariates, and incremental predictive information, with applications to Toronto houses, Thoroughbred horses, and Ontario Google Scholar profiles.",
       "links": [],
       "public_url": null,
-      "link_note": "The public-link field is ready for the current manuscript's future arXiv version; the older curb-appeal preprint is not presented as the current paper."
+      "public": false
+    },
+    {
+      "category": "Econometric Methods and Inference",
+      "title": "Which Policy Works, and Where? Estimation and Inference for State-Level Treatment Effects in Difference-in-Differences",
+      "authors": "Nichole Austin, Sunny R. Karim, Erin Strumpf, and Matthew D. Webb",
+      "status": "Submitted",
+      "summary": "Distinguishes aggregate from state-level and other sub-aggregate treatment effects, and studies inference for policy comparisons across jurisdictions, cohorts, periods, and policy types.",
+      "links": [
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2609.01467"}
+      ]
     },
     {
       "category": "Econometric Methods and Inference",
@@ -45,7 +57,7 @@
       "category": "Econometric Methods and Inference",
       "title": "Jackknife Inference with Two-Way Clustering",
       "authors": "James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb",
-      "status": "Working paper",
+      "status": "Revisions requested at Econometric Reviews",
       "summary": "Develops jackknife variance estimators and inference methods for linear models with clustering in two dimensions.",
       "links": [
         {"label": "arXiv", "url": "https://arxiv.org/abs/2406.08880"},
@@ -57,7 +69,7 @@
       "category": "Econometric Methods and Inference",
       "title": "Difference-in-Differences with Unpoolable Data",
       "authors": "Sunny Karim, Nichole Austin, Erin Strumpf, and Matthew D. Webb",
-      "status": "Working paper",
+      "status": "Submitted",
       "summary": "Develops UN-DID methods for estimating treatment effects when data held in separate silos cannot be pooled.",
       "links": [
         {"label": "arXiv", "url": "https://arxiv.org/abs/2403.15910"},
@@ -66,10 +78,10 @@
     },
     {
       "category": "Applied Microeconomics",
-      "title": "The Many Misspellings of Albuquerque: A Comment on 'Sorting or Steering: The Effects of Housing Discrimination on Neighborhood Choice'",
+      "title": "Fewer Homes, Similar Neighborhoods: Revisiting the Evidence for Racial Housing Discrimination in 'Sorting or Steering'",
       "authors": "Shi Chen, Areez Gangji, Sunny Karim, Anthony McCanny, and Matthew D. Webb",
       "status": "Resubmitted; second round of revisions requested at the Journal of Political Economy",
-      "summary": "No public manuscript link is currently listed.",
+      "summary": "Previously circulated as 'The Many Misspellings of Albuquerque.'",
       "links": []
     },
     {
@@ -80,8 +92,7 @@
       "summary": "Uses Canadian administrative data to study legal firearm ownership, deaths, and crime.",
       "links": [
         {"label": "arXiv", "url": "https://arxiv.org/abs/2607.20667"},
-        {"label": "Watch video", "url": "https://www.youtube.com/watch?v=Xw9flgTArOs"},
-        {"label": "Replication repository", "url": "https://github.com/mattdwebb/CDN-PAL"}
+        {"label": "Watch video", "url": "https://www.youtube.com/watch?v=Xw9flgTArOs"}
       ]
     }
   ],
@@ -100,6 +111,7 @@
       "year": 2025,
       "group": "Economics",
       "url": "https://doi.org/10.1017/esa.2025.10018",
+      "working_paper": "https://ssrn.com/abstract=4510277",
       "video": "https://www.youtube.com/watch?v=5Mof7gKq5aw"
     },
     {
@@ -117,7 +129,8 @@
       "venue": "Stata Journal 23(4), 942-982",
       "year": 2023,
       "group": "Economics",
-      "url": "https://www.econ.queensu.ca/research/working-papers/1483"
+      "url": "https://doi.org/10.1177/1536867X231212433",
+      "preprint": "https://arxiv.org/abs/2205.03288"
     },
     {
       "title": "Testing for the Appropriate Level of Clustering in Linear Regression Models",
@@ -134,7 +147,8 @@
       "venue": "Journal of Applied Econometrics 38(5), 671-694",
       "year": 2023,
       "group": "Economics",
-      "url": "https://doi.org/10.1002/jae.2969"
+      "url": "https://doi.org/10.1002/jae.2969",
+      "working_paper": "https://www.econ.queensu.ca/research/working-papers/1485"
     },
     {
       "title": "Finish It and It's Free: An Evaluation of College Graduation Subsidies",
@@ -143,6 +157,7 @@
       "year": 2023,
       "group": "Economics",
       "url": "https://doi.org/10.1016/j.econedurev.2023.102355",
+      "working_paper": "https://ideas.repec.org/p/car/carecp/19-08.html",
       "video": "https://www.youtube.com/watch?v=eevtajSwkR4"
     },
     {
@@ -152,6 +167,7 @@
       "year": 2023,
       "group": "Economics",
       "url": "https://doi.org/10.1111/caje.12661",
+      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1315.html",
       "video": "https://www.youtube.com/watch?v=d_EeewcmZW0"
     },
     {
@@ -169,7 +185,8 @@
       "venue": "Handbook of Labor, Human Resources and Population Economics",
       "year": 2023,
       "group": "Economics",
-      "url": "https://link.springer.com/referenceworkentry/10.1007/978-3-319-57365-6_43-1"
+      "url": "https://link.springer.com/referenceworkentry/10.1007/978-3-319-57365-6_43-1",
+      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1421.html"
     },
     {
       "title": "Bootstrap and Asymptotic Inference with Multiway Clustering",
@@ -177,7 +194,8 @@
       "venue": "Journal of Business & Economic Statistics 39(2), 505-519",
       "year": 2021,
       "group": "Economics",
-      "url": "https://doi.org/10.1080/07350015.2019.1677473"
+      "url": "https://doi.org/10.1080/07350015.2019.1677473",
+      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1415.html"
     },
     {
       "title": "Randomization Inference for Difference-in-Differences with Few Treated Clusters",
@@ -186,6 +204,7 @@
       "year": 2020,
       "group": "Economics",
       "url": "https://doi.org/10.1016/j.jeconom.2020.04.024",
+      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1355.html",
       "video": "https://www.youtube.com/watch?v=5ZEb_mHAf0w"
     },
     {
@@ -195,6 +214,7 @@
       "year": 2019,
       "group": "Economics",
       "url": "https://doi.org/10.1093/ectj/utz006",
+      "working_paper": "https://ideas.repec.org/p/rye/wpaper/wp063.html",
       "video": "https://www.youtube.com/watch?v=Sb4DMVqAmaI"
     },
     {
@@ -203,7 +223,8 @@
       "venue": "Stata Journal 19(1), 4-60",
       "year": 2019,
       "group": "Economics",
-      "url": "https://journals.sagepub.com/doi/10.1177/1536867X19830877"
+      "url": "https://journals.sagepub.com/doi/10.1177/1536867X19830877",
+      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1406.html"
     },
     {
       "title": "Wild Bootstrap Randomization Inference for Few Treated Clusters",
@@ -212,6 +233,7 @@
       "year": 2019,
       "group": "Economics",
       "url": "https://doi.org/10.1108/S0731-905320190000039003",
+      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1404.html",
       "video": "https://www.youtube.com/watch?v=YubMK1lhVds"
     },
     {
@@ -221,6 +243,7 @@
       "year": 2019,
       "group": "Economics",
       "url": "https://doi.org/10.1007/s00148-018-0700-5",
+      "working_paper": "https://www.cream-migration.org/publ_uploads/CDP_18_16.pdf",
       "video": "https://www.youtube.com/watch?v=Kfe77hu1m6Y"
     },
     {
@@ -229,7 +252,8 @@
       "venue": "The Econometrics Journal 21(2), 114-135",
       "year": 2018,
       "group": "Economics",
-      "url": "https://doi.org/10.1111/ectj.12107"
+      "url": "https://doi.org/10.1111/ectj.12107",
+      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1364.html"
     },
     {
       "title": "Wild Bootstrap Inference for Wildly Different Cluster Sizes",
@@ -238,6 +262,7 @@
       "year": 2017,
       "group": "Economics",
       "url": "https://doi.org/10.1002/jae.2508",
+      "working_paper": "https://ideas.repec.org/p/ags/quedwp/274639.html",
       "video": "https://www.youtube.com/watch?v=bJ0FuNhmjOE"
     },
     {
@@ -247,6 +272,7 @@
       "year": 2016,
       "group": "Economics",
       "url": "https://doi.org/10.3138/cpp.2014-070",
+      "working_paper": "https://ideas.repec.org/p/iza/izadps/dp10182.html",
       "video": "https://www.youtube.com/watch?v=HO7C09NKrts"
     },
     {
@@ -272,21 +298,22 @@
       "venue": "The Political Methodologist 24(2), 20-31",
       "year": 2017,
       "group": "Research Beyond Economics",
-      "url": "https://polmeth.org/blog/pitfalls-when-estimating-treatment-effects-using-clustered-data"
+      "url": "https://polmeth.org/blog/pitfalls-when-estimating-treatment-effects-using-clustered-data",
+      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1387.html"
     },
     {
       "title": "AI-Assisted Teams Outperform AI-Led Teams but Not Human-Only Teams in Assessing Research Reproducibility in Quantitative Social Science",
-      "authors": "Abel Brodeur, David Valenta, Juan P. Aparicio, Matthew D. Webb, and the project team",
+      "authors": "Abel Brodeur, David Valenta, Juan P. Aparicio, many others, Matthew D. Webb, and many others (200+ authors)",
       "venue": "Forthcoming, Proceedings of the National Academy of Sciences",
       "year": 2026,
-      "group": "Large Collaboration Papers"
+      "group": "Meta Papers"
     },
     {
       "title": "Reproducibility and Robustness of Economics and Political Science Research",
-      "authors": "Abel Brodeur, Derek Mikola, Nikolai Cook, Matthew D. Webb, and the project team",
+      "authors": "Abel Brodeur, Derek Mikola, Nikolai Cook, many others, Matthew D. Webb, and many others (300+ authors)",
       "venue": "Nature 652, 151-156",
       "year": 2026,
-      "group": "Large Collaboration Papers"
+      "group": "Meta Papers"
     }
   ]
 }

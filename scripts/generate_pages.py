@@ -31,26 +31,27 @@ def render_research() -> str:
     out = [
         "---",
         'title: "Research"',
-        'description: "Current and published research by Matthew D. Webb in econometrics, causal inference, machine learning, and applied microeconomics."',
+        'description: "Current and published research in econometrics, causal inference, machine learning, and applied microeconomics."',
         "toc: true",
         'toc-title: "On this page"',
         "---",
         "",
         "<!-- Generated from data/research.json by scripts/generate_pages.py. -->",
         "",
-        "Current projects appear first. Publication status follows the current CV; public links are included only where verified.",
+        "Current projects are grouped by research program.",
         "",
         "# Current Research",
     ]
 
+    current_items = [item for item in data["current"] if item.get("public", True)]
     categories = []
-    for item in data["current"]:
+    for item in current_items:
         if item["category"] not in categories:
             categories.append(item["category"])
 
     for category in categories:
         out.extend(["", f"## {category}"])
-        for item in [x for x in data["current"] if x["category"] == category]:
+        for item in [x for x in current_items if x["category"] == category]:
             out.extend(["", "::: {.research-item}", f"### {item['title']}"])
             if item.get("authors"):
                 out.append(f"<p class=\"authors\">{html.escape(item['authors'])}</p>")
@@ -58,24 +59,39 @@ def render_research() -> str:
             out.extend(["", item["summary"]])
             if item.get("links"):
                 out.extend(["", " · ".join(md_link(x["label"], x["url"]) for x in item["links"])])
-            if item.get("link_note"):
-                out.extend(["", f"<p class=\"link-note\">{html.escape(item['link_note'])}</p>"])
             out.append(":::")
 
     out.extend(["", "# Published Research"])
-    groups = []
-    for item in data["published"]:
-        if item["group"] not in groups:
-            groups.append(item["group"])
-    for group in groups:
-        out.extend(["", f"## {group}"])
-        for item in [x for x in data["published"] if x["group"] == group]:
+    main_papers = [item for item in data["published"] if item["group"] != "Meta Papers"]
+    meta_papers = [item for item in data["published"] if item["group"] == "Meta Papers"]
+    for item in sorted(main_papers, key=lambda x: x["year"], reverse=True):
+        out.extend(["", "::: {.publication-entry}", f"### {item['title']}"])
+        out.append(f"<p class=\"authors\">{html.escape(item['authors'])}</p>")
+        out.append(f"<p class=\"publication-venue\">{html.escape(item['venue'])} ({item['year']})</p>")
+        links = []
+        if item.get("url"):
+            links.append(md_link("Published version", item["url"]))
+        if item.get("working_paper"):
+            links.append(md_link("Working paper", item["working_paper"]))
+        if item.get("preprint"):
+            links.append(md_link("Preprint", item["preprint"]))
+        if item.get("video"):
+            links.append(md_link("Watch video", item["video"]))
+        if links:
+            out.extend(["", " · ".join(links)])
+        out.append(":::")
+
+    if meta_papers:
+        out.extend(["", "## Meta Papers"])
+        for item in sorted(meta_papers, key=lambda x: x["year"], reverse=True):
             out.extend(["", "::: {.publication-entry}", f"### {item['title']}"])
             out.append(f"<p class=\"authors\">{html.escape(item['authors'])}</p>")
             out.append(f"<p class=\"publication-venue\">{html.escape(item['venue'])} ({item['year']})</p>")
             links = []
             if item.get("url"):
-                links.append(md_link("Article", item["url"]))
+                links.append(md_link("Published version", item["url"]))
+            if item.get("working_paper"):
+                links.append(md_link("Working paper", item["working_paper"]))
             if item.get("preprint"):
                 links.append(md_link("Preprint", item["preprint"]))
             if item.get("video"):
@@ -91,19 +107,15 @@ def render_software() -> str:
     out = [
         "---",
         'title: "Research Software"',
-        'description: "A method-first guide to econometric software associated with Matthew D. Webb\'s research, with verified installation channels and transparent implementation credit."',
+        'description: "Econometric software organized by method and package family, with installation information and implementation authorship."',
         "toc: true",
         'toc-title: "Software families"',
         "---",
         "",
         "<!-- Generated from data/software.json by scripts/generate_pages.py. -->",
-        "",
-        "This page is organized by research method rather than repository. Registry labels and installation commands are shown at the implementation level. Forked repositories are linked to their upstream authors so implementation credit remains explicit.",
     ]
     for family in families:
         out.extend(["", f"## {family['name']} {{#{family['id']}}}", "", family["description"]])
-        if family.get("video"):
-            out.extend(["", md_link("Watch video", family["video"])])
         out.extend(["", "### Implementations"])
         for impl in family["implementations"]:
             display = impl.get("name") or family["name"]
@@ -117,9 +129,16 @@ def render_software() -> str:
                 f"**Role:** {impl['role']}",
                 "",
             ])
-            links = [md_link("GitHub", impl["repository"]), md_link("Documentation", impl["docs"])]
+            paper_url = family["paper"].get("published_url") or family["paper"].get("url") or family["paper"].get("working_url")
+            links = []
+            if paper_url:
+                links.append(md_link("Paper", paper_url))
+            links.extend([md_link("Documentation", impl["docs"]), md_link("GitHub", impl["repository"])])
+            video_url = impl.get("video") or family.get("video")
+            if video_url:
+                links.append(md_link("Video", video_url))
             if impl.get("registry_url"):
-                links.insert(0, md_link(impl["registry"], impl["registry_url"]))
+                links.append(md_link(impl["registry"], impl["registry_url"]))
             out.append(" · ".join(links))
             if impl.get("install"):
                 language = {"Stata": "stata", "R": "r", "Julia": "julia", "Python": "bash"}.get(impl["language"], "text")
@@ -131,8 +150,19 @@ def render_software() -> str:
             "",
             "### Associated paper",
             "",
-            f"[{family['paper']['citation']}]({family['paper']['url']})",
+            family["paper"]["citation"],
             "",
+        ])
+        paper_links = []
+        if family["paper"].get("published_url"):
+            paper_links.append(md_link("Published version", family["paper"]["published_url"]))
+        if family["paper"].get("working_url"):
+            paper_links.append(md_link("Working paper", family["paper"]["working_url"]))
+        if not paper_links and family["paper"].get("url"):
+            paper_links.append(md_link("Paper", family["paper"]["url"]))
+        if paper_links:
+            out.extend([" · ".join(paper_links), ""])
+        out.extend([
             "### How to cite",
             "",
             family["cite"],
@@ -147,12 +177,12 @@ def render_videos() -> str:
     out = [
         "---",
         'title: "Videos"',
-        'description: "Short research and econometrics videos from Matthew D. Webb, with links to the associated papers and software."',
+        'description: "Research and software videos on econometrics, causal inference, and related projects."',
         "---",
         "",
         "<!-- Generated from data/videos.json by scripts/generate_pages.py. -->",
         "",
-        "Short research explainers and software-oriented introductions from [MattWebbEcon on YouTube](https://youtube.com/@MattWebbEcon). Thumbnails link to YouTube; no tracking-heavy iframe wall is embedded on this page.",
+        "[View the MattWebbEcon channel on YouTube](https://youtube.com/@MattWebbEcon).",
         "",
         "::: {.video-grid}",
     ]

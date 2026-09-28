@@ -1,11 +1,33 @@
 [
   {
+    "id": "lookagain-ml",
+    "name": "LookAgain-ML",
+    "description": "A PyTorch-based library for extracting, comparing, selecting, and combining pretrained image representations, with group-aware validation, repeated-split stability, paired uncertainty, caching, and image quality-control workflows.",
+    "paper": {
+      "citation": "'Representation Risk in Pretrained Image Encoders.' Submitted."
+    },
+    "cite": "A public paper citation is not yet available. Please credit the software creator and cite the associated paper once its public version is released.",
+    "implementations": [
+      {
+        "language": "Python",
+        "name": "lookagain-ml",
+        "implementer": "Vamuyan",
+        "role": "Creator and implementation author",
+        "registry": "GitHub only",
+        "repository": "https://github.com/vamusesay/LookAgain-ML",
+        "docs": "https://github.com/vamusesay/LookAgain-ML#readme",
+        "install": "git clone https://github.com/vamusesay/LookAgain-ML.git\ncd LookAgain-ML\npython -m pip install ."
+      }
+    ]
+  },
+  {
     "id": "summclust",
     "name": "summclust",
     "description": "Cluster-level leverage and influence diagnostics and cluster-jackknife variance estimation for linear regression models.",
     "paper": {
       "citation": "MacKinnon, James G., Morten Ørregaard Nielsen, and Matthew D. Webb. 2023. 'Leverage, Influence, and the Jackknife in Clustered Regression Models: Reliable Inference Using summclust.' Stata Journal 23(4): 942-982.",
-      "url": "https://www.econ.queensu.ca/research/working-papers/1483"
+      "published_url": "https://doi.org/10.1177/1536867X231212433",
+      "working_url": "https://arxiv.org/abs/2205.03288"
     },
     "cite": "Please cite the associated Stata Journal article when the method or software contributes to published research.",
     "implementations": [
@@ -52,7 +74,6 @@
       "url": "https://arxiv.org/abs/2406.08880"
     },
     "cite": "Please cite the associated paper when using the method or implementation.",
-    "video": "https://www.youtube.com/watch?v=9UorOgryxzc",
     "implementations": [
       {
         "language": "Stata",
@@ -74,7 +95,6 @@
       "url": "https://www.sciencedirect.com/science/article/pii/S0304407623001021"
     },
     "cite": "Please cite the associated Journal of Econometrics article.",
-    "video": "https://www.youtube.com/watch?v=WD6zK7kTu8s",
     "implementations": [
       {
         "language": "Stata",
@@ -88,7 +108,7 @@
       {
         "language": "R",
         "implementer": "Tonghui Tian",
-        "role": "R implementation by a research assistant",
+        "role": "R implementation author",
         "registry": "GitHub only",
         "repository": "https://github.com/tttthhtysx/MNW",
         "docs": "https://github.com/tttthhtysx/MNW",
@@ -104,14 +124,13 @@
       "citation": "Karim, Sunny R., Morten Ørregaard Nielsen, James G. MacKinnon, and Matthew D. Webb. 2026. 'Improved Inference for CSDID Using the Cluster Jackknife.' arXiv:2602.12043.",
       "url": "https://arxiv.org/abs/2602.12043"
     },
-    "cite": "Please cite the associated paper. Implementation credit belongs to Yunhan Liu, not Matthew Webb.",
-    "video": "https://www.youtube.com/watch?v=8xLv7Bu-_l0",
+    "cite": "Please cite the associated paper when using the method or software.",
     "implementations": [
       {
         "language": "Stata",
         "name": "csdidjack",
         "implementer": "Yunhan Liu",
-        "role": "Stata implementation by a research assistant",
+        "role": "Stata implementation author",
         "registry": "GitHub only",
         "repository": "https://github.com/liu-yunhan/csdidjack",
         "docs": "https://github.com/liu-yunhan/csdidjack#readme",
@@ -121,7 +140,7 @@
         "language": "R",
         "name": "didjack",
         "implementer": "Yunhan Liu",
-        "role": "R implementation by a research assistant",
+        "role": "R implementation author",
         "registry": "GitHub only",
         "repository": "https://github.com/liu-yunhan/didjack",
         "docs": "https://github.com/liu-yunhan/didjack#readme",
@@ -137,13 +156,13 @@
       "citation": "Karim, Sunny, and Matthew D. Webb. 2024. 'Good Controls Gone Bad: Difference-in-Differences with Covariates.' arXiv:2412.14447.",
       "url": "https://arxiv.org/abs/2412.14447"
     },
-    "cite": "Please cite the associated paper. The Julia implementation was written by Eric Jamieson.",
+    "cite": "Please cite the associated paper when using the method or software.",
     "implementations": [
       {
         "language": "Julia",
         "name": "DiDInt.jl",
         "implementer": "Eric Jamieson",
-        "role": "Julia implementation by a research assistant",
+        "role": "Julia implementation author",
         "registry": "Julia General Registry",
         "registry_url": "https://github.com/JuliaRegistries/General/tree/master/D/DiDInt",
         "repository": "https://github.com/ebjamieson97/DiDInt.jl",
@@ -160,13 +179,13 @@
       "citation": "Karim, Sunny, Nichole Austin, Erin Strumpf, and Matthew D. Webb. 2025. 'Difference-in-Differences with Unpoolable Data.' arXiv:2403.15910.",
       "url": "https://arxiv.org/abs/2403.15910"
     },
-    "cite": "Please cite the underlying UN-DID paper. All listed language implementations were written by Eric Jamieson.",
+    "cite": "Please cite the associated paper when using the method or software.",
     "implementations": [
       {
         "language": "Stata",
         "name": "undid",
         "implementer": "Eric Jamieson",
-        "role": "Stata implementation by a research assistant",
+        "role": "Stata implementation author",
         "registry": "SSC",
         "registry_url": "https://ideas.repec.org/c/boc/bocode/s459516.html",
         "repository": "https://github.com/ebjamieson97/undid",
@@ -177,7 +196,7 @@
         "language": "R",
         "name": "undidR",
         "implementer": "Eric Jamieson",
-        "role": "R implementation by a research assistant",
+        "role": "R implementation author",
         "registry": "CRAN",
         "registry_url": "https://cran.r-project.org/package=undidR",
         "repository": "https://github.com/ebjamieson97/undidR",
@@ -188,7 +207,7 @@
         "language": "Julia",
         "name": "Undid.jl",
         "implementer": "Eric Jamieson",
-        "role": "Julia implementation by a research assistant",
+        "role": "Julia implementation author",
         "registry": "GitHub only",
         "repository": "https://github.com/ebjamieson97/Undid.jl",
         "docs": "https://github.com/ebjamieson97/Undid.jl#readme",
@@ -198,12 +217,35 @@
         "language": "Python",
         "name": "undidPyjl",
         "implementer": "Eric Jamieson",
-        "role": "Python wrapper by a research assistant",
+        "role": "Python wrapper author",
         "registry": "PyPI",
         "registry_url": "https://pypi.org/project/undidPyjl/",
         "repository": "https://github.com/ebjamieson97/undidPyjl",
         "docs": "https://github.com/ebjamieson97/undidPyjl#readme",
         "install": "pip install undidPyjl"
+      }
+    ]
+  },
+  {
+    "id": "boottest",
+    "name": "boottest",
+    "description": "Fast wild-bootstrap inference for linear regression models in Stata.",
+    "paper": {
+      "citation": "Roodman, David, James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb. 2019. 'Fast and Wild: Bootstrap Inference in Stata Using boottest.' Stata Journal 19(1): 4–60.",
+      "published_url": "https://journals.sagepub.com/doi/10.1177/1536867X19830877",
+      "working_url": "https://ideas.repec.org/p/qed/wpaper/1406.html"
+    },
+    "cite": "Please cite the associated Stata Journal article when using boottest.",
+    "implementations": [
+      {
+        "language": "Stata",
+        "implementer": "David Roodman",
+        "role": "Original developer and Stata implementation author",
+        "registry": "SSC",
+        "registry_url": "https://ideas.repec.org/c/boc/bocode/s458121.html",
+        "repository": "https://github.com/droodman/boottest",
+        "docs": "https://github.com/droodman/boottest/blob/master/boottest.sthlp",
+        "install": "ssc install boottest"
       }
     ]
   }

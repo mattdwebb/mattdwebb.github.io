@@ -1,11 +1,11 @@
 ---
 title: "Videos"
-description: "Short research and econometrics videos from Matthew D. Webb, with links to the associated papers and software."
+description: "Research and software videos on econometrics, causal inference, and related projects."
 ---
 
 <!-- Generated from data/videos.json by scripts/generate_pages.py. -->
 
-Short research explainers and software-oriented introductions from [MattWebbEcon on YouTube](https://youtube.com/@MattWebbEcon). Thumbnails link to YouTube; no tracking-heavy iframe wall is embedded on this page.
+[View the MattWebbEcon channel on YouTube](https://youtube.com/@MattWebbEcon).
 
 ::: {.video-grid}
 ::: {.video-card}

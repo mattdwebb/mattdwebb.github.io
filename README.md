@@ -39,7 +39,7 @@ Add a record to `data/videos.json` with the YouTube video ID, verified title, co
 
 ### Change the CV
 
-Update `webb_CV.pdf` in the `mattdwebb/cv` repository, then copy the same PDF to `files/webb_CV.pdf` in this repository. The website embeds that local copy on `cv.qmd`, with a full-screen browser link as a fallback.
+Update `webb_CV.pdf` in the `mattdwebb/cv` repository. The publishing workflow fetches that file before every deployment and also runs hourly, so the embedded website copy updates automatically. `files/webb_CV.pdf` remains a checked-in fallback for local previews.
 
 ## Build and checks
 

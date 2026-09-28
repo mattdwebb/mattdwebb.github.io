@@ -3,6 +3,8 @@ name: Publish Quarto website
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -20,6 +22,14 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Fetch latest CV
+        run: |
+          mkdir -p files
+          curl --fail --location --retry 3 \
+            --output files/webb_CV.pdf \
+            https://raw.githubusercontent.com/mattdwebb/cv/main/webb_CV.pdf
+          test -s files/webb_CV.pdf
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2

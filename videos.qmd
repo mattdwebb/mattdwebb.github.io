@@ -24,7 +24,7 @@ Practical guidance on when cluster-robust inference is needed and how to approac
 
 An overview of score-variance tests and the statistical trade-offs involved in choosing a clustering level.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=WD6zK7kTu8s) · [Published paper](https://www.sciencedirect.com/science/article/pii/S0304407623001021)
+[Watch on YouTube](https://www.youtube.com/watch?v=WD6zK7kTu8s) · [Paper and software](software.qmd#mnwsvt)
 :::
 ::: {.video-card}
 [<img src="https://i.ytimg.com/vi/9UorOgryxzc/hqdefault.jpg" alt="Thumbnail for Jackknife Inference with Two-Way Clustering" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=9UorOgryxzc)

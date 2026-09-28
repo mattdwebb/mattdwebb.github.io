@@ -10,8 +10,8 @@
     "id": "WD6zK7kTu8s",
     "title": "Testing for the Appropriate Level of Clustering in Linear Regression Models",
     "description": "An overview of score-variance tests and the statistical trade-offs involved in choosing a clustering level.",
-    "related_label": "Published paper",
-    "related_url": "https://www.sciencedirect.com/science/article/pii/S0304407623001021"
+    "related_label": "Paper and software",
+    "related_url": "software.qmd#mnwsvt"
   },
   {
     "id": "9UorOgryxzc",

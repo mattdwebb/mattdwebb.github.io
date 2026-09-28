@@ -1,5 +1,6 @@
 /.quarto/
 /_site/
+/site_libs/
 /.DS_Store
 __pycache__/
 *.pyc

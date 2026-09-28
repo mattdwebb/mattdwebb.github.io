@@ -51,9 +51,31 @@ Advanced labour economics, co-taught.
 
 ## Undergraduate Teaching
 
-- **Honours Capstone Seminar (ECON 4905)** — Carleton University
-- **Statistical Analysis in Economics (ECON 4002)** — Carleton University
-- **Statistical Methods in Economics and Business I (ECON 2201)** — Carleton University
+::: {.teaching-grid}
+::: {.teaching-card}
+### Honours Capstone Seminar
+
+**ECON 4905 · Carleton University**
+
+An honours seminar focused on developing, executing, and communicating an independent economics research project.
+:::
+
+::: {.teaching-card}
+### Statistical Analysis in Economics
+
+**ECON 4002 · Carleton University**
+
+Applied statistical methods for empirical economic analysis.
+:::
+
+::: {.teaching-card}
+### Statistical Methods in Economics and Business I
+
+**ECON 2201 · Carleton University**
+
+Foundational probability, statistics, estimation, and hypothesis testing for economics and business.
+:::
+:::
 
 Earlier teaching includes Economics of the Environment at the Royal Military College of Canada and Introduction to Microeconomics at Wilfrid Laurier University.
 

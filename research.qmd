@@ -19,7 +19,7 @@ Current projects are grouped by research program.
 
 Studies representation risk: different plausible pretrained image encoders applied to the same images can produce materially different downstream conclusions. The paper compares modern and legacy encoders across economic, medical, biological, and demographic tasks and studies representation selection, combination, robustness, uncertainty, computational cost, and a reproducible software framework.
 
-[Software](software.qmd#lookagain-ml)
+[arXiv](https://arxiv.org/abs/2609.35470) · [Software](software.qmd#lookagain-ml)
 :::
 
 ## Econometric Methods and Inference

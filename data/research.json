@@ -6,9 +6,10 @@
       "status": "Submitted",
       "summary": "Studies representation risk: different plausible pretrained image encoders applied to the same images can produce materially different downstream conclusions. The paper compares modern and legacy encoders across economic, medical, biological, and demographic tasks and studies representation selection, combination, robustness, uncertainty, computational cost, and a reproducible software framework.",
       "links": [
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2609.35470"},
         {"label": "Software", "url": "software.qmd#lookagain-ml"}
       ],
-      "public_url": null,
+      "public_url": "https://arxiv.org/abs/2609.35470",
       "public": true
     },
     {

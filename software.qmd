@@ -19,7 +19,7 @@ A PyTorch-based library for extracting, comparing, selecting, and combining pret
 **Implementation:** Vamuyan<br>
 **Role:** Creator and implementation author
 
-[Documentation](https://github.com/vamusesay/LookAgain-ML#readme) · [GitHub](https://github.com/vamusesay/LookAgain-ML)
+[Paper](https://arxiv.org/abs/2609.35470) · [Documentation](https://github.com/vamusesay/LookAgain-ML#readme) · [GitHub](https://github.com/vamusesay/LookAgain-ML)
 
 **Install**
 
@@ -32,11 +32,13 @@ python -m pip install .
 
 ### Associated paper
 
-'Representation Risk in Pretrained Image Encoders.' Submitted.
+Nordstrom, Morgan, Vamuyan Sesay, and Matthew D. Webb. 2026. 'Representation Risk in Pretrained Image Encoders.' arXiv:2609.35470. Submitted.
+
+[Paper](https://arxiv.org/abs/2609.35470)
 
 ### How to cite
 
-A public paper citation is not yet available. Please credit the software creator and cite the associated paper once its public version is released.
+Please credit the software creator and cite 'Representation Risk in Pretrained Image Encoders' (arXiv:2609.35470) when the software contributes to published research.
 
 ---
 

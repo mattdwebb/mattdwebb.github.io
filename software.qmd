@@ -32,7 +32,7 @@ python -m pip install .
 
 ### Associated paper
 
-Nordstrom, Ardyn, Vamuyan Sesay, and Matthew D. Webb. 2026. 'Representation Risk in Pretrained Image Encoders.' arXiv:2609.35470. Submitted.
+Nordstrom, Morgan, Ardyn Nordstrom, Matthew D. Webb, and Vamuyan Sesay. 2026. 'Representation Risk in Pretrained Image Encoders.' arXiv:2609.35470. Submitted.
 
 [Paper](https://arxiv.org/abs/2609.35470)
 

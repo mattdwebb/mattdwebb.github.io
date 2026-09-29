@@ -4,7 +4,7 @@
     "name": "LookAgain-ML",
     "description": "A PyTorch-based library for extracting, comparing, selecting, and combining pretrained image representations, with group-aware validation, repeated-split stability, paired uncertainty, caching, and image quality-control workflows.",
     "paper": {
-      "citation": "Nordstrom, Ardyn, Vamuyan Sesay, and Matthew D. Webb. 2026. 'Representation Risk in Pretrained Image Encoders.' arXiv:2609.35470. Submitted.",
+      "citation": "Nordstrom, Morgan, Ardyn Nordstrom, Matthew D. Webb, and Vamuyan Sesay. 2026. 'Representation Risk in Pretrained Image Encoders.' arXiv:2609.35470. Submitted.",
       "url": "https://arxiv.org/abs/2609.35470"
     },
     "cite": "Please credit the software creator and cite 'Representation Risk in Pretrained Image Encoders' (arXiv:2609.35470) when the software contributes to published research.",

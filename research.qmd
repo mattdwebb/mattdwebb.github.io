@@ -82,6 +82,8 @@ Develops UN-DID methods for estimating treatment effects when data held in separ
 <p class="status-line">Resubmitted; second round of revisions requested at the Journal of Political Economy</p>
 
 Previously circulated as 'The Many Misspellings of Albuquerque.'
+
+[Current paper (GitHub)](https://github.com/SunnyRKarim/HUD-paper) · [Earlier version (PDF)](https://www.econstor.eu/bitstream/10419/286601/1/I4R-DP108.pdf)
 :::
 
 ::: {.research-item}

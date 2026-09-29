@@ -83,7 +83,10 @@
       "authors": "Shi Chen, Areez Gangji, Sunny Karim, Anthony McCanny, and Matthew D. Webb",
       "status": "Resubmitted; second round of revisions requested at the Journal of Political Economy",
       "summary": "Previously circulated as 'The Many Misspellings of Albuquerque.'",
-      "links": []
+      "links": [
+        {"label": "Current paper (GitHub)", "url": "https://github.com/SunnyRKarim/HUD-paper"},
+        {"label": "Earlier version (PDF)", "url": "https://www.econstor.eu/bitstream/10419/286601/1/I4R-DP108.pdf"}
+      ]
     },
     {
       "category": "Applied Microeconomics",

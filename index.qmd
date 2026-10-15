@@ -12,7 +12,7 @@ page-layout: full
 
 <p class="research-line">Applied Microeconometrics <span>·</span> Causal Inference <span>·</span> Machine Learning and AI for Economic Measurement <span>·</span> Empirical Microeconomics</p>
 
-I develop and apply econometric methods for credible empirical research, with a particular focus on inference with clustered data and difference-in-differences designs. My current work also uses machine learning and AI to measure economically meaningful features in images and other complex data.
+I develop and apply econometric methods for credible empirical research, with a particular focus on inference with clustered data and difference-in-differences designs. My current work also uses machine learning and AI to measure economically meaningful features in images and other complex data. I am also a Co-Director of the [Centre for Economic Evidence on Migration (CEEM)](https://ceem.ca/) at Carleton University.
 
 <div class="button-row">
   <a class="button button-primary" href="cv.qmd">View CV</a>

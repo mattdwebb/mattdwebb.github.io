@@ -1,24 +1,44 @@
 ---
 title: "Curriculum Vitae"
 description: "Short and comprehensive curriculum vitae for Matthew D. Webb, Associate Professor of Economics at Carleton University."
+page-layout: full
 ---
 
 <div class="cv-page-intro">
-  <p>Choose the concise public CV for a quick overview, or the comprehensive CV for a complete academic record. Both open as PDFs in a new tab.</p>
+  <p>The short CV is displayed below. Open either version in a separate tab for a full-screen view.</p>
+  <div class="cv-actions"><a id="cv-open-short" class="button button-primary" href="https://raw.githubusercontent.com/mattdwebb/cv/main/webb_CV_short.pdf" target="_blank" rel="noopener">Open short CV full screen</a><a class="button" href="https://raw.githubusercontent.com/mattdwebb/cv/main/webb_CV.pdf" target="_blank" rel="noopener">Open full CV</a></div>
 </div>
 
-<div class="cv-downloads">
-  <section class="cv-download-card cv-download-primary">
-    <p class="cv-kicker">Recommended</p>
-    <h2>Short CV</h2>
-    <p>A three-page overview of current research, economics publications, selected grants, software, and professional service.</p>
-    <p><a class="button button-primary" href="https://raw.githubusercontent.com/mattdwebb/cv/main/webb_CV_short.pdf" target="_blank" rel="noopener">Open short CV</a></p>
-  </section>
-
-  <section class="cv-download-card">
-    <p class="cv-kicker">Complete record</p>
-    <h2>Full CV</h2>
-    <p>The comprehensive curriculum vitae, including teaching, presentations, supervision, service, and additional professional activity.</p>
-    <p><a class="button" href="https://raw.githubusercontent.com/mattdwebb/cv/main/webb_CV.pdf" target="_blank" rel="noopener">Open full CV</a></p>
-  </section>
+<div class="cv-viewer-shell">
+  <p id="cv-viewer-status" class="cv-viewer-status">Loading short CV&hellip;</p>
+  <iframe id="cv-viewer" class="cv-viewer" title="Matthew D. Webb short curriculum vitae" hidden></iframe>
+  <noscript>
+    <p class="cv-viewer-status">JavaScript is required for the inline preview. <a href="https://raw.githubusercontent.com/mattdwebb/cv/main/webb_CV_short.pdf">Open the short CV directly</a>.</p>
+  </noscript>
 </div>
+
+<script>
+(() => {
+  const source = "https://raw.githubusercontent.com/mattdwebb/cv/main/webb_CV_short.pdf";
+  const viewer = document.getElementById("cv-viewer");
+  const status = document.getElementById("cv-viewer-status");
+  const openShort = document.getElementById("cv-open-short");
+
+  fetch(source, { cache: "no-cache" })
+    .then((response) => {
+      if (!response.ok) throw new Error("PDF request failed: " + response.status);
+      return response.arrayBuffer();
+    })
+    .then((buffer) => {
+      const pdfUrl = URL.createObjectURL(new Blob([buffer], { type: "application/pdf" }));
+      viewer.src = pdfUrl + "#view=FitH";
+      openShort.href = pdfUrl;
+      viewer.hidden = false;
+      status.hidden = true;
+      window.addEventListener("beforeunload", () => URL.revokeObjectURL(pdfUrl), { once: true });
+    })
+    .catch(() => {
+      status.innerHTML = 'The preview could not be loaded. <a href="' + source + '" target="_blank" rel="noopener">Open the short CV directly</a>.';
+    });
+})();
+</script>

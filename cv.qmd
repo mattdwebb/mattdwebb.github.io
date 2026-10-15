@@ -1,12 +1,24 @@
 ---
 title: "Curriculum Vitae"
-description: "Curriculum vitae for Matthew D. Webb, Associate Professor of Economics at Carleton University."
-page-layout: full
+description: "Short and comprehensive curriculum vitae for Matthew D. Webb, Associate Professor of Economics at Carleton University."
 ---
 
 <div class="cv-page-intro">
-  <p>The CV is displayed below. If the embedded viewer is unavailable on your device, open the PDF in a separate browser tab.</p>
-  <p><a class="button button-primary" href="files/webb_CV.pdf" target="_blank" rel="noopener">Open CV full screen</a></p>
+  <p>Choose the concise public CV for a quick overview, or the comprehensive CV for a complete academic record. Both open as PDFs in a new tab.</p>
 </div>
 
-<iframe class="cv-viewer" src="files/webb_CV.pdf#view=FitH" title="Matthew D. Webb curriculum vitae"></iframe>
+<div class="cv-downloads">
+  <section class="cv-download-card cv-download-primary">
+    <p class="cv-kicker">Recommended</p>
+    <h2>Short CV</h2>
+    <p>A three-page overview of current research, economics publications, selected grants, software, and professional service.</p>
+    <p><a class="button button-primary" href="https://raw.githubusercontent.com/mattdwebb/cv/main/webb_CV_short.pdf" target="_blank" rel="noopener">Open short CV</a></p>
+  </section>
+
+  <section class="cv-download-card">
+    <p class="cv-kicker">Complete record</p>
+    <h2>Full CV</h2>
+    <p>The comprehensive curriculum vitae, including teaching, presentations, supervision, service, and additional professional activity.</p>
+    <p><a class="button" href="https://raw.githubusercontent.com/mattdwebb/cv/main/webb_CV.pdf" target="_blank" rel="noopener">Open full CV</a></p>
+  </section>
+</div>

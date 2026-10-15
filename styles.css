@@ -326,18 +326,47 @@ h3 {
 .feature-card p:last-child { margin-bottom: 0; }
 
 .cv-page-intro {
-  max-width: 72rem;
-  margin: 0 auto 1rem;
+  max-width: 46rem;
+  margin-bottom: 1.35rem;
 }
 
-.cv-viewer {
-  display: block;
-  width: min(100%, 72rem);
-  height: calc(100vh - 14rem);
-  min-height: 48rem;
-  margin: 0 auto;
+.cv-downloads {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  max-width: 58rem;
+}
+
+.cv-download-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 18rem;
+  padding: 1.55rem;
   border: 1px solid var(--line);
-  background: var(--soft);
+  background: #fff;
+}
+
+.cv-download-primary {
+  border-top: .28rem solid var(--accent);
+  box-shadow: 0 .6rem 1.6rem rgb(16 48 58 / 9%);
+}
+
+.cv-download-card h2 {
+  margin: .15rem 0 .65rem;
+}
+
+.cv-download-card p:last-child {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.cv-kicker {
+  margin: 0;
+  color: var(--accent);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
 }
 
 .video-feature {
@@ -382,7 +411,8 @@ h3 {
   .home-photo img { box-shadow: .7rem .7rem 0 var(--soft); }
   .video-feature { grid-template-columns: 1fr; padding: .9rem; }
   .video-grid, .teaching-grid { grid-template-columns: 1fr; }
-  .cv-viewer { min-height: 36rem; height: 72vh; }
+  .cv-downloads { grid-template-columns: 1fr; }
+  .cv-download-card { min-height: 0; }
   h2 { margin-top: 3.2rem; }
 }
 

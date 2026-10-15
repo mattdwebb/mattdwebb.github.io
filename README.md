@@ -39,7 +39,13 @@ Add a record to `data/videos.json` with the YouTube video ID, verified title, co
 
 ### Change the CV
 
-Update `webb_CV.pdf` in the `mattdwebb/cv` repository. The publishing workflow fetches that file before every deployment and also runs weekly, so the embedded website copy updates automatically without unnecessary hourly builds. `files/webb_CV.pdf` remains a checked-in fallback for local previews.
+Update the CV files in the `mattdwebb/cv` repository:
+
+1. Edit and rebuild the comprehensive CV first (`webb_CV.pdf`).
+2. Update the short public source and rebuild `webb_CV_short.pdf` from the same facts.
+3. Commit both PDFs with those stable filenames.
+
+The website links directly to the raw files in the CV repository. Replacing either PDF updates its public link immediately; no website rebuild or scheduled synchronization is needed.
 
 ## Build and checks
 
@@ -57,5 +63,4 @@ The rendered `_site` directory is ignored by Git and should not be maintained ma
 
 ## Deployment
 
-The workflow in `.github/workflows/publish.yml` renders and deploys on pushes to `main`. In GitHub, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. A pull request from `site-migration` should be reviewed and merged before public deployment; do not deploy this migration branch directly.
-Website
+The workflow in `.github/workflows/publish.yml` renders and deploys on pushes to `main`. In GitHub, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**.

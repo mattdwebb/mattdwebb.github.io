@@ -7,19 +7,23 @@
       "summary": "Studies representation risk: different plausible pretrained image encoders applied to the same images can produce materially different downstream conclusions. The paper compares modern and legacy encoders across economic, medical, biological, and demographic tasks and studies representation selection, combination, robustness, uncertainty, computational cost, and a reproducible software framework.",
       "links": [
         {"label": "arXiv", "url": "https://arxiv.org/abs/2609.35470"},
-        {"label": "Software", "url": "software.qmd#lookagain-ml"}
+        {"label": "Software", "url": "software.qmd#lookagain-ml"},
+        {"label": "Watch video", "url": "https://www.youtube.com/watch?v=dA8yxSYdpi8"}
       ],
       "public_url": "https://arxiv.org/abs/2609.35470",
       "public": true
     },
     {
       "category": "AI, Machine Learning, and Economic Measurement",
-      "title": "Images as Covariates: Incorporating Missing Information from Structured Data",
+      "title": "Images as Covariates: When do they Improve Prediction from Structured Data?",
+      "authors": "Ardyn Nordstrom, Morgan Nordstrom, Vamuyan Sesay, and Matthew D. Webb",
       "status": "2026 working paper",
       "summary": "Asks when images add predictive information beyond an existing structured covariate set. It separates image-only predictability, overlap with structured covariates, and incremental predictive information, with applications to Toronto houses, Thoroughbred horses, and Ontario Google Scholar profiles.",
-      "links": [],
-      "public_url": null,
-      "public": false
+      "links": [
+        {"label": "Working paper (GitHub)", "url": "https://github.com/mattdwebb/images-as-covariates"}
+      ],
+      "public_url": "https://github.com/mattdwebb/images-as-covariates",
+      "public": true
     },
     {
       "category": "Econometric Methods and Inference",
@@ -28,7 +32,8 @@
       "status": "Submitted",
       "summary": "Distinguishes aggregate from state-level and other sub-aggregate treatment effects, and studies inference for policy comparisons across jurisdictions, cohorts, periods, and policy types.",
       "links": [
-        {"label": "arXiv", "url": "https://arxiv.org/abs/2609.01467"}
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2609.01467"},
+        {"label": "Watch video", "url": "https://www.youtube.com/watch?v=rucQv4cd4Rg"}
       ]
     },
     {
@@ -257,7 +262,8 @@
       "year": 2018,
       "group": "Economics",
       "url": "https://doi.org/10.1111/ectj.12107",
-      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1364.html"
+      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1364.html",
+      "video": "https://www.youtube.com/watch?v=0zuvd35VKS0"
     },
     {
       "title": "Wild Bootstrap Inference for Wildly Different Cluster Sizes",

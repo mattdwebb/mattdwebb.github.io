@@ -19,7 +19,17 @@ Current projects are grouped by research program.
 
 Studies representation risk: different plausible pretrained image encoders applied to the same images can produce materially different downstream conclusions. The paper compares modern and legacy encoders across economic, medical, biological, and demographic tasks and studies representation selection, combination, robustness, uncertainty, computational cost, and a reproducible software framework.
 
-[arXiv](https://arxiv.org/abs/2609.35470) · [Software](software.qmd#lookagain-ml)
+[arXiv](https://arxiv.org/abs/2609.35470) · [Software](software.qmd#lookagain-ml) · [Watch video](https://www.youtube.com/watch?v=dA8yxSYdpi8)
+:::
+
+::: {.research-item}
+### Images as Covariates: When do they Improve Prediction from Structured Data?
+<p class="authors">Ardyn Nordstrom, Morgan Nordstrom, Vamuyan Sesay, and Matthew D. Webb</p>
+<p class="status-line">2026 working paper</p>
+
+Asks when images add predictive information beyond an existing structured covariate set. It separates image-only predictability, overlap with structured covariates, and incremental predictive information, with applications to Toronto houses, Thoroughbred horses, and Ontario Google Scholar profiles.
+
+[Working paper (GitHub)](https://github.com/mattdwebb/images-as-covariates)
 :::
 
 ## Econometric Methods and Inference
@@ -31,7 +41,7 @@ Studies representation risk: different plausible pretrained image encoders appli
 
 Distinguishes aggregate from state-level and other sub-aggregate treatment effects, and studies inference for policy comparisons across jurisdictions, cohorts, periods, and policy types.
 
-[arXiv](https://arxiv.org/abs/2609.01467)
+[arXiv](https://arxiv.org/abs/2609.01467) · [Watch video](https://www.youtube.com/watch?v=rucQv4cd4Rg)
 :::
 
 ::: {.research-item}
@@ -245,7 +255,7 @@ Uses Canadian administrative data to study legal firearm ownership, deaths, and 
 <p class="authors">James G. MacKinnon and Matthew D. Webb</p>
 <p class="publication-venue">The Econometrics Journal 21(2), 114-135 (2018)</p>
 
-[Published version](https://doi.org/10.1111/ectj.12107) · [Working paper](https://ideas.repec.org/p/qed/wpaper/1364.html)
+[Published version](https://doi.org/10.1111/ectj.12107) · [Working paper](https://ideas.repec.org/p/qed/wpaper/1364.html) · [Watch video](https://www.youtube.com/watch?v=0zuvd35VKS0)
 :::
 
 ::: {.publication-entry}

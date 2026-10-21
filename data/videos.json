@@ -1,5 +1,26 @@
 [
   {
+    "id": "rucQv4cd4Rg",
+    "title": "Which Policy Works, and Where? State-Level Treatment Effects in Difference-in-Differences",
+    "description": "How treatment effects and inference should match policy questions at the jurisdiction, cohort, period, or policy-type level.",
+    "related_label": "arXiv",
+    "related_url": "https://arxiv.org/abs/2609.01467"
+  },
+  {
+    "id": "dA8yxSYdpi8",
+    "title": "The Translation Assumption  Unmasking Representation Risk",
+    "description": "How pretrained image encoders can yield different predictions from the same images, and how LookAgain-ML helps researchers assess and select representations.",
+    "related_label": "Paper and software",
+    "related_url": "software.qmd#lookagain-ml"
+  },
+  {
+    "id": "0zuvd35VKS0",
+    "title": "The Wild Bootstrap for Few (Treated) Clusters",
+    "description": "Subcluster wild-bootstrap methods for inference with very few treated clusters, including when ordinary wild-bootstrap procedures can work well.",
+    "related_label": "Published paper",
+    "related_url": "https://doi.org/10.1111/ectj.12107"
+  },
+  {
     "id": "az_-DVLhslI",
     "title": "Cluster-robust inference: A guide to empirical practice",
     "description": "Practical guidance on when cluster-robust inference is needed and how to approach common design and implementation choices.",

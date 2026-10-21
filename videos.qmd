@@ -9,6 +9,33 @@ description: "Research and software videos on econometrics, causal inference, an
 
 ::: {.video-grid}
 ::: {.video-card}
+[<img src="https://i.ytimg.com/vi/rucQv4cd4Rg/hqdefault.jpg" alt="Thumbnail for Which Policy Works, and Where? State-Level Treatment Effects in Difference-in-Differences" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=rucQv4cd4Rg)
+
+### Which Policy Works, and Where? State-Level Treatment Effects in Difference-in-Differences
+
+How treatment effects and inference should match policy questions at the jurisdiction, cohort, period, or policy-type level.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=rucQv4cd4Rg) · [arXiv](https://arxiv.org/abs/2609.01467)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/dA8yxSYdpi8/hqdefault.jpg" alt="Thumbnail for The Translation Assumption  Unmasking Representation Risk" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=dA8yxSYdpi8)
+
+### The Translation Assumption  Unmasking Representation Risk
+
+How pretrained image encoders can yield different predictions from the same images, and how LookAgain-ML helps researchers assess and select representations.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=dA8yxSYdpi8) · [Paper and software](software.qmd#lookagain-ml)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/0zuvd35VKS0/hqdefault.jpg" alt="Thumbnail for The Wild Bootstrap for Few (Treated) Clusters" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=0zuvd35VKS0)
+
+### The Wild Bootstrap for Few (Treated) Clusters
+
+Subcluster wild-bootstrap methods for inference with very few treated clusters, including when ordinary wild-bootstrap procedures can work well.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=0zuvd35VKS0) · [Published paper](https://doi.org/10.1111/ectj.12107)
+:::
+::: {.video-card}
 [<img src="https://i.ytimg.com/vi/az_-DVLhslI/hqdefault.jpg" alt="Thumbnail for Cluster-robust inference: A guide to empirical practice" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=az_-DVLhslI)
 
 ### Cluster-robust inference: A guide to empirical practice

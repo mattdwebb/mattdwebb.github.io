@@ -221,6 +221,51 @@ remotes::install_github("liu-yunhan/didjack")
 ```
 :::
 
+::: {.implementation}
+#### fastcsdid — Stata <span class="registry-pill">GitHub</span>
+
+**Implementation:** Matthew D. Webb<br>
+**Role:** Stata implementation for stationary repeated cross sections, with analytical cluster and ordinary cluster-jackknife inference
+
+[Paper](https://arxiv.org/abs/2602.12043) · [Documentation](https://github.com/mattdwebb/fastcsdid/tree/main/stata#readme) · [GitHub](https://github.com/mattdwebb/fastcsdid)
+
+**Install**
+
+```stata
+net install fastcsdid, from("https://raw.githubusercontent.com/mattdwebb/fastcsdid/main/stata") replace
+```
+:::
+
+::: {.implementation}
+#### fastrcsdid — R <span class="registry-pill">GitHub</span>
+
+**Implementation:** Matthew D. Webb<br>
+**Role:** R implementation for stationary repeated cross sections, with analytical cluster and ordinary cluster-jackknife inference
+
+[Paper](https://arxiv.org/abs/2602.12043) · [Documentation](https://github.com/mattdwebb/fastcsdid/tree/main/R#readme) · [GitHub](https://github.com/mattdwebb/fastcsdid)
+
+**Install**
+
+```r
+remotes::install_github("mattdwebb/fastcsdid", subdir = "R")
+```
+:::
+
+::: {.implementation}
+#### fastcsdidpy — Python <span class="registry-pill">GitHub</span>
+
+**Implementation:** Matthew D. Webb<br>
+**Role:** Python implementation for stationary repeated cross sections, with analytical cluster and ordinary cluster-jackknife inference
+
+[Paper](https://arxiv.org/abs/2602.12043) · [Documentation](https://github.com/mattdwebb/fastcsdid/tree/main/python#readme) · [GitHub](https://github.com/mattdwebb/fastcsdid)
+
+**Install**
+
+```bash
+python -m pip install "git+https://github.com/mattdwebb/fastcsdid.git#subdirectory=python"
+```
+:::
+
 ### Associated paper
 
 Karim, Sunny R., Morten Ørregaard Nielsen, James G. MacKinnon, and Matthew D. Webb. 2026. 'Improved Inference for CSDID Using the Cluster Jackknife.' arXiv:2602.12043.

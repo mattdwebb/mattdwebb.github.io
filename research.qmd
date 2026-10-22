@@ -49,9 +49,9 @@ Distinguishes aggregate from state-level and other sub-aggregate treatment effec
 <p class="authors">Sunny R. Karim, Morten Ørregaard Nielsen, James G. MacKinnon, and Matthew D. Webb</p>
 <p class="status-line">Working paper</p>
 
-Develops cluster-jackknife inference for the Callaway-Sant'Anna difference-in-differences estimator and provides companion implementations in Stata and R.
+Develops cluster-jackknife inference for the Callaway-Sant'Anna difference-in-differences estimator. Companion software includes fastcsdid for stationary repeated cross sections in Stata, R, and Python.
 
-[arXiv](https://arxiv.org/abs/2602.12043) · [Software](software.qmd#csdid-jackknife) · [Watch video](https://www.youtube.com/watch?v=8xLv7Bu-_l0)
+[arXiv](https://arxiv.org/abs/2602.12043) · [Software](software.qmd#csdid-jackknife) · [fastcsdid (GitHub)](https://github.com/mattdwebb/fastcsdid) · [Watch video](https://www.youtube.com/watch?v=8xLv7Bu-_l0)
 :::
 
 ::: {.research-item}

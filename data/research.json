@@ -41,10 +41,11 @@
       "title": "Improved Inference for CSDID Using the Cluster Jackknife",
       "authors": "Sunny R. Karim, Morten Ørregaard Nielsen, James G. MacKinnon, and Matthew D. Webb",
       "status": "Working paper",
-      "summary": "Develops cluster-jackknife inference for the Callaway-Sant'Anna difference-in-differences estimator and provides companion implementations in Stata and R.",
+      "summary": "Develops cluster-jackknife inference for the Callaway-Sant'Anna difference-in-differences estimator. Companion software includes fastcsdid for stationary repeated cross sections in Stata, R, and Python.",
       "links": [
         {"label": "arXiv", "url": "https://arxiv.org/abs/2602.12043"},
         {"label": "Software", "url": "software.qmd#csdid-jackknife"},
+        {"label": "fastcsdid (GitHub)", "url": "https://github.com/mattdwebb/fastcsdid"},
         {"label": "Watch video", "url": "https://www.youtube.com/watch?v=8xLv7Bu-_l0"}
       ]
     },

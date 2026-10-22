@@ -146,6 +146,36 @@
         "repository": "https://github.com/liu-yunhan/didjack",
         "docs": "https://github.com/liu-yunhan/didjack#readme",
         "install": "remotes::install_github(\"liu-yunhan/didjack\")"
+      },
+      {
+        "language": "Stata",
+        "name": "fastcsdid",
+        "implementer": "Matthew D. Webb",
+        "role": "Stata implementation for stationary repeated cross sections, with analytical cluster and ordinary cluster-jackknife inference",
+        "registry": "GitHub",
+        "repository": "https://github.com/mattdwebb/fastcsdid",
+        "docs": "https://github.com/mattdwebb/fastcsdid/tree/main/stata#readme",
+        "install": "net install fastcsdid, from(\"https://raw.githubusercontent.com/mattdwebb/fastcsdid/main/stata\") replace"
+      },
+      {
+        "language": "R",
+        "name": "fastrcsdid",
+        "implementer": "Matthew D. Webb",
+        "role": "R implementation for stationary repeated cross sections, with analytical cluster and ordinary cluster-jackknife inference",
+        "registry": "GitHub",
+        "repository": "https://github.com/mattdwebb/fastcsdid",
+        "docs": "https://github.com/mattdwebb/fastcsdid/tree/main/R#readme",
+        "install": "remotes::install_github(\"mattdwebb/fastcsdid\", subdir = \"R\")"
+      },
+      {
+        "language": "Python",
+        "name": "fastcsdidpy",
+        "implementer": "Matthew D. Webb",
+        "role": "Python implementation for stationary repeated cross sections, with analytical cluster and ordinary cluster-jackknife inference",
+        "registry": "GitHub",
+        "repository": "https://github.com/mattdwebb/fastcsdid",
+        "docs": "https://github.com/mattdwebb/fastcsdid/tree/main/python#readme",
+        "install": "python -m pip install \"git+https://github.com/mattdwebb/fastcsdid.git#subdirectory=python\""
       }
     ]
   },

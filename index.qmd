@@ -49,7 +49,7 @@ Studies identification with time-varying covariates and introduces the Intersect
 
 Cluster-jackknife inference for modern difference-in-differences estimators.
 
-[Paper](https://arxiv.org/abs/2602.12043) · [Watch video](https://www.youtube.com/watch?v=8xLv7Bu-_l0)
+[Paper](https://arxiv.org/abs/2602.12043) · [Software](software.qmd#csdid-jackknife) · [Watch video](https://www.youtube.com/watch?v=8xLv7Bu-_l0)
 :::
 
 ::: {.feature-card}

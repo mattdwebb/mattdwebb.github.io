@@ -57,7 +57,7 @@ Cluster-jackknife inference for modern difference-in-differences estimators.
 
 Studies how plausible choices of pretrained image encoders can lead to different predictions and conclusions, and how to assess representation risk.
 
-[Paper](https://arxiv.org/abs/2609.35470) · [Software](software.qmd#lookagain-ml)
+[Paper](https://arxiv.org/abs/2609.35470) · [Software](software.qmd#lookagain-ml) · [Watch video](https://www.youtube.com/watch?v=dA8yxSYdpi8)
 :::
 
 :::

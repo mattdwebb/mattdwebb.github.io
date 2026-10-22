@@ -8,11 +8,10 @@ description: "Upcoming and recent talks, plus conferences I have helped organize
 - **Wilfrid Laurier University**, Waterloo — invited seminar, 2026
 - **University of Waterloo** — invited seminar, 2026
 - **Improving Design-Based Inference with Placebo Tests** — Southern Economic Association, Houston, 2026
-- **Which Policy Works, and Where? Estimation and Inference for State-Level Treatment Effects in Difference-in-Differences** — Canadian Econometrics Study Group, Vancouver, 2026
 
 ## Recent Talks
 
-- **Which Policy Works, and Where? Estimation and Inference for State-Level Treatment Effects in Difference-in-Differences** — Canadian Economics Association, 2026
+- **Which Policy Works, and Where? Estimation and Inference for State-Level Treatment Effects in Difference-in-Differences** — Canadian Econometrics Study Group (CESG), Vancouver, 2026
 - **Improved Inference for CSDID Using the Cluster Jackknife** — Canadian Economics Association, Vancouver, 2026
 - **Jackknife Inference with Two-Way Clustering** — Celebrating James G. MacKinnon, Aarhus, 2026
 - **University of Alberta** — invited seminar, Edmonton, 2026

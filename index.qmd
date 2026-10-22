@@ -52,6 +52,14 @@ Cluster-jackknife inference for modern difference-in-differences estimators.
 [Paper](https://arxiv.org/abs/2602.12043) · [Watch video](https://www.youtube.com/watch?v=8xLv7Bu-_l0)
 :::
 
+::: {.feature-card}
+### Representation Risk in Pretrained Image Encoders
+
+Studies how plausible choices of pretrained image encoders can lead to different predictions and conclusions, and how to assess representation risk.
+
+[Paper](https://arxiv.org/abs/2609.35470) · [Software](software.qmd#lookagain-ml)
+:::
+
 :::
 
 ## Research Software

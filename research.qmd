@@ -27,7 +27,7 @@ Studies representation risk: different plausible pretrained image encoders appli
 <p class="authors">Ardyn Nordstrom, Morgan Nordstrom, Vamuyan Sesay, and Matthew D. Webb</p>
 <p class="status-line">2026 working paper</p>
 
-Asks when images add predictive information beyond an existing structured covariate set. It separates image-only predictability, overlap with structured covariates, and incremental predictive information, with applications to Toronto houses, Thoroughbred horses, and Ontario Google Scholar profiles.
+Examines when adding images improves out-of-sample prediction beyond structured covariates. It distinguishes image-only prediction, overlap with structured data, and incremental predictive value, using Monte Carlo experiments and applications to Toronto house prices, Thoroughbred workout performance, and Ontario academic salaries.
 
 [Working paper (GitHub)](https://github.com/mattdwebb/images-as-covariates)
 :::

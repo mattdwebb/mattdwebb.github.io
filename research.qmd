@@ -127,7 +127,7 @@ Uses Canadian administrative data to study legal firearm ownership, deaths, and 
 <p class="authors">James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb</p>
 <p class="publication-venue">Forthcoming, Econometric Reviews (2025)</p>
 
-[Published version](https://doi.org/10.1080/07474938.2025.2515161) · [Preprint](https://arxiv.org/abs/2406.00650)
+[Published version](https://doi.org/10.1080/07474938.2025.2515161) · [Preprint](https://arxiv.org/abs/2406.00650) · [Watch video](https://www.youtube.com/watch?v=jyK7O42Cx1g)
 :::
 
 ::: {.publication-entry}
@@ -135,7 +135,7 @@ Uses Canadian administrative data to study legal firearm ownership, deaths, and 
 <p class="authors">James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb</p>
 <p class="publication-venue">Stata Journal 23(4), 942-982 (2023)</p>
 
-[Published version](https://doi.org/10.1177/1536867X231212433) · [Preprint](https://arxiv.org/abs/2205.03288)
+[Published version](https://doi.org/10.1177/1536867X231212433) · [Preprint](https://arxiv.org/abs/2205.03288) · [Watch video](https://www.youtube.com/watch?v=r9gBSZYJ3-M)
 :::
 
 ::: {.publication-entry}
@@ -151,7 +151,7 @@ Uses Canadian administrative data to study legal firearm ownership, deaths, and 
 <p class="authors">James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb</p>
 <p class="publication-venue">Journal of Applied Econometrics 38(5), 671-694 (2023)</p>
 
-[Published version](https://doi.org/10.1002/jae.2969) · [Working paper](https://www.econ.queensu.ca/research/working-papers/1485)
+[Published version](https://doi.org/10.1002/jae.2969) · [Working paper](https://www.econ.queensu.ca/research/working-papers/1485) · [Watch video](https://www.youtube.com/watch?v=Ir95X6qNINc)
 :::
 
 ::: {.publication-entry}
@@ -207,7 +207,7 @@ Uses Canadian administrative data to study legal firearm ownership, deaths, and 
 <p class="authors">Roger White and Matthew D. Webb</p>
 <p class="publication-venue">Journal of Financial Reporting 6(2), 129-141 (2021)</p>
 
-[Published version](https://meridian.allenpress.com/jfr/article-abstract/6/2/129/467467/Randomization-Inference-for-Accounting-Researchers)
+[Published version](https://meridian.allenpress.com/jfr/article-abstract/6/2/129/467467/Randomization-Inference-for-Accounting-Researchers) · [Watch video](https://www.youtube.com/watch?v=kqjMG6m-7rA)
 :::
 
 ::: {.publication-entry}
@@ -231,7 +231,7 @@ Uses Canadian administrative data to study legal firearm ownership, deaths, and 
 <p class="authors">David Roodman, James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb</p>
 <p class="publication-venue">Stata Journal 19(1), 4-60 (2019)</p>
 
-[Published version](https://journals.sagepub.com/doi/10.1177/1536867X19830877) · [Working paper](https://ideas.repec.org/p/qed/wpaper/1406.html)
+[Published version](https://journals.sagepub.com/doi/10.1177/1536867X19830877) · [Working paper](https://ideas.repec.org/p/qed/wpaper/1406.html) · [Watch video](https://www.youtube.com/watch?v=YoJjwaogwMQ)
 :::
 
 ::: {.publication-entry}
@@ -271,7 +271,7 @@ Uses Canadian administrative data to study legal firearm ownership, deaths, and 
 <p class="authors">James G. MacKinnon and Matthew D. Webb</p>
 <p class="publication-venue">The Political Methodologist 24(2), 20-31 (2017)</p>
 
-[Published version](https://polmeth.org/blog/pitfalls-when-estimating-treatment-effects-using-clustered-data) · [Working paper](https://ideas.repec.org/p/qed/wpaper/1387.html)
+[Published version](https://polmeth.org/blog/pitfalls-when-estimating-treatment-effects-using-clustered-data) · [Working paper](https://ideas.repec.org/p/qed/wpaper/1387.html) · [Watch video](https://www.youtube.com/watch?v=XUGnHs64WOc)
 :::
 
 ::: {.publication-entry}

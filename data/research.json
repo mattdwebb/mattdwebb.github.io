@@ -131,7 +131,8 @@
       "year": 2025,
       "group": "Economics",
       "url": "https://doi.org/10.1080/07474938.2025.2515161",
-      "preprint": "https://arxiv.org/abs/2406.00650"
+      "preprint": "https://arxiv.org/abs/2406.00650",
+      "video": "https://www.youtube.com/watch?v=jyK7O42Cx1g"
     },
     {
       "title": "Leverage, Influence, and the Jackknife in Clustered Regression Models: Reliable Inference Using summclust",
@@ -140,7 +141,8 @@
       "year": 2023,
       "group": "Economics",
       "url": "https://doi.org/10.1177/1536867X231212433",
-      "preprint": "https://arxiv.org/abs/2205.03288"
+      "preprint": "https://arxiv.org/abs/2205.03288",
+      "video": "https://www.youtube.com/watch?v=r9gBSZYJ3-M"
     },
     {
       "title": "Testing for the Appropriate Level of Clustering in Linear Regression Models",
@@ -158,7 +160,8 @@
       "year": 2023,
       "group": "Economics",
       "url": "https://doi.org/10.1002/jae.2969",
-      "working_paper": "https://www.econ.queensu.ca/research/working-papers/1485"
+      "working_paper": "https://www.econ.queensu.ca/research/working-papers/1485",
+      "video": "https://www.youtube.com/watch?v=Ir95X6qNINc"
     },
     {
       "title": "Finish It and It's Free: An Evaluation of College Graduation Subsidies",
@@ -234,7 +237,8 @@
       "year": 2019,
       "group": "Economics",
       "url": "https://journals.sagepub.com/doi/10.1177/1536867X19830877",
-      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1406.html"
+      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1406.html",
+      "video": "https://www.youtube.com/watch?v=YoJjwaogwMQ"
     },
     {
       "title": "Wild Bootstrap Randomization Inference for Few Treated Clusters",
@@ -301,7 +305,8 @@
       "venue": "Journal of Financial Reporting 6(2), 129-141",
       "year": 2021,
       "group": "Research Beyond Economics",
-      "url": "https://meridian.allenpress.com/jfr/article-abstract/6/2/129/467467/Randomization-Inference-for-Accounting-Researchers"
+      "url": "https://meridian.allenpress.com/jfr/article-abstract/6/2/129/467467/Randomization-Inference-for-Accounting-Researchers",
+      "video": "https://www.youtube.com/watch?v=kqjMG6m-7rA"
     },
     {
       "title": "Pitfalls when Estimating Treatment Effects Using Clustered Data",
@@ -310,7 +315,8 @@
       "year": 2017,
       "group": "Research Beyond Economics",
       "url": "https://polmeth.org/blog/pitfalls-when-estimating-treatment-effects-using-clustered-data",
-      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1387.html"
+      "working_paper": "https://ideas.repec.org/p/qed/wpaper/1387.html",
+      "video": "https://www.youtube.com/watch?v=XUGnHs64WOc"
     },
     {
       "title": "AI-Assisted Teams Outperform AI-Led Teams but Not Human-Only Teams in Assessing Research Reproducibility in Quantitative Social Science",

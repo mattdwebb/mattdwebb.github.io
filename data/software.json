@@ -24,6 +24,7 @@
   {
     "id": "summclust",
     "name": "summclust",
+    "video": "https://www.youtube.com/watch?v=r9gBSZYJ3-M",
     "description": "Cluster-level leverage and influence diagnostics and cluster-jackknife variance estimation for linear regression models.",
     "paper": {
       "citation": "MacKinnon, James G., Morten Ørregaard Nielsen, and Matthew D. Webb. 2023. 'Leverage, Influence, and the Jackknife in Clustered Regression Models: Reliable Inference Using summclust.' Stata Journal 23(4): 942-982.",
@@ -47,6 +48,7 @@
   {
     "id": "logitjack",
     "name": "logitjack",
+    "video": "https://www.youtube.com/watch?v=jyK7O42Cx1g",
     "description": "Cluster-jackknife and wild-cluster-bootstrap inference for logistic regression models.",
     "paper": {
       "citation": "MacKinnon, James G., Morten Ørregaard Nielsen, and Matthew D. Webb. 'Cluster-Robust Jackknife and Bootstrap Inference for Binary Response Models.' Forthcoming, Econometric Reviews.",
@@ -260,6 +262,7 @@
   {
     "id": "boottest",
     "name": "boottest",
+    "video": "https://www.youtube.com/watch?v=YoJjwaogwMQ",
     "description": "Fast wild-bootstrap inference for linear regression models in Stata.",
     "paper": {
       "citation": "Roodman, David, James G. MacKinnon, Morten Ørregaard Nielsen, and Matthew D. Webb. 2019. 'Fast and Wild: Bootstrap Inference in Stata Using boottest.' Stata Journal 19(1): 4–60.",

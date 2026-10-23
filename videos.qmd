@@ -9,6 +9,60 @@ description: "Research and software videos on econometrics, causal inference, an
 
 ::: {.video-grid}
 ::: {.video-card}
+[<img src="https://i.ytimg.com/vi/kqjMG6m-7rA/hqdefault.jpg" alt="Thumbnail for Randomization Inference for Accounting Researchers" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=kqjMG6m-7rA)
+
+### Randomization Inference for Accounting Researchers
+
+How placebo treatment effects support randomization-inference tests in small- and large-sample accounting research.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=kqjMG6m-7rA) · [Published paper](https://meridian.allenpress.com/jfr/article-abstract/6/2/129/467467/Randomization-Inference-for-Accounting-Researchers)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/XUGnHs64WOc/hqdefault.jpg" alt="Thumbnail for Pitfalls when Estimating Treatment Effects Using Clustered Data" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=XUGnHs64WOc)
+
+### Pitfalls when Estimating Treatment Effects Using Clustered Data
+
+Why treatment-effect inference can be unreliable with few treated clusters or unequal cluster sizes, even when the total number of clusters is large.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=XUGnHs64WOc) · [Published paper](https://polmeth.org/blog/pitfalls-when-estimating-treatment-effects-using-clustered-data)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/YoJjwaogwMQ/hqdefault.jpg" alt="Thumbnail for Fast and Wild: Bootstrap Inference In Stata Using Boottest" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=YoJjwaogwMQ)
+
+### Fast and Wild: Bootstrap Inference In Stata Using Boottest
+
+Fast wild-cluster-bootstrap tests and confidence sets in Stata using boottest, especially when conventional large-sample inference is unreliable.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=YoJjwaogwMQ) · [Paper and software](software.qmd#boottest)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/Ir95X6qNINc/hqdefault.jpg" alt="Thumbnail for Fast and Reliable Jackknife and Bootstrap Methods for Cluster-Robust Inference" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=Ir95X6qNINc)
+
+### Fast and Reliable Jackknife and Bootstrap Methods for Cluster-Robust Inference
+
+Computationally efficient jackknife and wild-cluster-bootstrap methods for reliable inference with few clusters or substantially unequal cluster sizes.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=Ir95X6qNINc) · [Published paper](https://doi.org/10.1002/jae.2969)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/r9gBSZYJ3-M/hqdefault.jpg" alt="Thumbnail for Leverage, Influence, &amp; Jackknife in Clustered Regression Models: Reliable Inference Using summclust" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=r9gBSZYJ3-M)
+
+### Leverage, Influence, & Jackknife in Clustered Regression Models: Reliable Inference Using summclust
+
+How summclust diagnoses cluster-level leverage and influence and computes jackknife standard errors for clustered regression models.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=r9gBSZYJ3-M) · [Paper and software](software.qmd#summclust)
+:::
+::: {.video-card}
+[<img src="https://i.ytimg.com/vi/jyK7O42Cx1g/hqdefault.jpg" alt="Thumbnail for Cluster-Robust Jackknife and Bootstrap Inference for Logistic Regression Models" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=jyK7O42Cx1g)
+
+### Cluster-Robust Jackknife and Bootstrap Inference for Logistic Regression Models
+
+Reliable inference for logistic regression with clustered data using linearized cluster-jackknife and wild-cluster-bootstrap methods implemented in logitjack.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=jyK7O42Cx1g) · [Paper and software](software.qmd#logitjack)
+:::
+::: {.video-card}
 [<img src="https://i.ytimg.com/vi/rucQv4cd4Rg/hqdefault.jpg" alt="Thumbnail for Which Policy Works, and Where? State-Level Treatment Effects in Difference-in-Differences" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=rucQv4cd4Rg)
 
 ### Which Policy Works, and Where? State-Level Treatment Effects in Difference-in-Differences

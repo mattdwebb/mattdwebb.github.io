@@ -54,7 +54,7 @@ Cluster-level leverage and influence diagnostics and cluster-jackknife variance 
 **Implementation:** Matthew D. Webb<br>
 **Role:** Original implementation
 
-[Paper](https://doi.org/10.1177/1536867X231212433) · [Documentation](https://github.com/mattdwebb/summclust/blob/main/summclust.sthlp) · [GitHub](https://github.com/mattdwebb/summclust) · [SSC](https://ideas.repec.org/c/boc/bocode/s459072.html)
+[Paper](https://doi.org/10.1177/1536867X231212433) · [Documentation](https://github.com/mattdwebb/summclust/blob/main/summclust.sthlp) · [GitHub](https://github.com/mattdwebb/summclust) · [Video](https://www.youtube.com/watch?v=r9gBSZYJ3-M) · [SSC](https://ideas.repec.org/c/boc/bocode/s459072.html)
 
 **Install**
 
@@ -87,7 +87,7 @@ Cluster-jackknife and wild-cluster-bootstrap inference for logistic regression m
 **Implementation:** Matthew D. Webb<br>
 **Role:** Original implementation
 
-[Paper](https://arxiv.org/abs/2406.00650) · [Documentation](https://github.com/mattdwebb/logitjack/blob/main/logitjack.sthlp) · [GitHub](https://github.com/mattdwebb/logitjack) · [SSC](https://ideas.repec.org/c/boc/bocode/s459337.html)
+[Paper](https://arxiv.org/abs/2406.00650) · [Documentation](https://github.com/mattdwebb/logitjack/blob/main/logitjack.sthlp) · [GitHub](https://github.com/mattdwebb/logitjack) · [Video](https://www.youtube.com/watch?v=jyK7O42Cx1g) · [SSC](https://ideas.repec.org/c/boc/bocode/s459337.html)
 
 **Install**
 
@@ -403,7 +403,7 @@ Fast wild-bootstrap inference for linear regression models in Stata.
 **Implementation:** David Roodman<br>
 **Role:** Original developer and Stata implementation author
 
-[Paper](https://journals.sagepub.com/doi/10.1177/1536867X19830877) · [Documentation](https://github.com/droodman/boottest/blob/master/boottest.sthlp) · [GitHub](https://github.com/droodman/boottest) · [SSC](https://ideas.repec.org/c/boc/bocode/s458121.html)
+[Paper](https://journals.sagepub.com/doi/10.1177/1536867X19830877) · [Documentation](https://github.com/droodman/boottest/blob/master/boottest.sthlp) · [GitHub](https://github.com/droodman/boottest) · [Video](https://www.youtube.com/watch?v=YoJjwaogwMQ) · [SSC](https://ideas.repec.org/c/boc/bocode/s458121.html)
 
 **Install**
 

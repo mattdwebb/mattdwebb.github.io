@@ -1,5 +1,47 @@
 [
   {
+    "id": "kqjMG6m-7rA",
+    "title": "Randomization Inference for Accounting Researchers",
+    "description": "How placebo treatment effects support randomization-inference tests in small- and large-sample accounting research.",
+    "related_label": "Published paper",
+    "related_url": "https://meridian.allenpress.com/jfr/article-abstract/6/2/129/467467/Randomization-Inference-for-Accounting-Researchers"
+  },
+  {
+    "id": "XUGnHs64WOc",
+    "title": "Pitfalls when Estimating Treatment Effects Using Clustered Data",
+    "description": "Why treatment-effect inference can be unreliable with few treated clusters or unequal cluster sizes, even when the total number of clusters is large.",
+    "related_label": "Published paper",
+    "related_url": "https://polmeth.org/blog/pitfalls-when-estimating-treatment-effects-using-clustered-data"
+  },
+  {
+    "id": "YoJjwaogwMQ",
+    "title": "Fast and Wild: Bootstrap Inference In Stata Using Boottest",
+    "description": "Fast wild-cluster-bootstrap tests and confidence sets in Stata using boottest, especially when conventional large-sample inference is unreliable.",
+    "related_label": "Paper and software",
+    "related_url": "software.qmd#boottest"
+  },
+  {
+    "id": "Ir95X6qNINc",
+    "title": "Fast and Reliable Jackknife and Bootstrap Methods for Cluster-Robust Inference",
+    "description": "Computationally efficient jackknife and wild-cluster-bootstrap methods for reliable inference with few clusters or substantially unequal cluster sizes.",
+    "related_label": "Published paper",
+    "related_url": "https://doi.org/10.1002/jae.2969"
+  },
+  {
+    "id": "r9gBSZYJ3-M",
+    "title": "Leverage, Influence, & Jackknife in Clustered Regression Models: Reliable Inference Using summclust",
+    "description": "How summclust diagnoses cluster-level leverage and influence and computes jackknife standard errors for clustered regression models.",
+    "related_label": "Paper and software",
+    "related_url": "software.qmd#summclust"
+  },
+  {
+    "id": "jyK7O42Cx1g",
+    "title": "Cluster-Robust Jackknife and Bootstrap Inference for Logistic Regression Models",
+    "description": "Reliable inference for logistic regression with clustered data using linearized cluster-jackknife and wild-cluster-bootstrap methods implemented in logitjack.",
+    "related_label": "Paper and software",
+    "related_url": "software.qmd#logitjack"
+  },
+  {
     "id": "rucQv4cd4Rg",
     "title": "Which Policy Works, and Where? State-Level Treatment Effects in Difference-in-Differences",
     "description": "How treatment effects and inference should match policy questions at the jurisdiction, cohort, period, or policy-type level.",

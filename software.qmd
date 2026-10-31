@@ -290,7 +290,7 @@ Intersection Difference-in-Differences estimation for settings in which covariat
 **Implementation:** Eric Jamieson<br>
 **Role:** Julia implementation author
 
-[Paper](https://arxiv.org/abs/2412.14447) · [Documentation](https://github.com/ebjamieson97/DiDInt.jl#readme) · [GitHub](https://github.com/ebjamieson97/DiDInt.jl) · [Julia General Registry](https://github.com/JuliaRegistries/General/tree/master/D/DiDInt)
+[Paper](https://arxiv.org/abs/2412.14447) · [Documentation](https://github.com/ebjamieson97/DiDInt.jl#readme) · [GitHub](https://github.com/ebjamieson97/DiDInt.jl) · [Video](https://www.youtube.com/watch?v=TK1e262Uvo8) · [Julia General Registry](https://github.com/JuliaRegistries/General/tree/master/D/DiDInt)
 
 **Install**
 

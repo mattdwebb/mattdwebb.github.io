@@ -61,7 +61,7 @@ Develops cluster-jackknife inference for the Callaway-Sant'Anna difference-in-di
 
 Studies identification with time-varying covariates and introduces the Intersection Difference-in-Differences (DID-INT) estimator.
 
-[arXiv](https://arxiv.org/abs/2412.14447) · [DID-INT software](software.qmd#did-int)
+[arXiv](https://arxiv.org/abs/2412.14447) · [DID-INT software](software.qmd#did-int) · [Watch video](https://www.youtube.com/watch?v=TK1e262Uvo8)
 :::
 
 ::: {.research-item}

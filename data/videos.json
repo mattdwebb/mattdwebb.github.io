@@ -1,5 +1,12 @@
 [
   {
+    "id": "TK1e262Uvo8",
+    "title": "Good Controls Gone Bad: Difference-in-Differences with Covariates",
+    "description": "Why covariate assumptions matter for difference-in-differences, and how integrated parallel trends and DID-INT can help.",
+    "related_label": "Paper and software",
+    "related_url": "software.qmd#did-int"
+  },
+  {
     "id": "kqjMG6m-7rA",
     "title": "Randomization Inference for Accounting Researchers",
     "description": "How placebo treatment effects support randomization-inference tests in small- and large-sample accounting research.",

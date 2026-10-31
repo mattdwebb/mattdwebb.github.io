@@ -9,6 +9,15 @@ description: "Research and software videos on econometrics, causal inference, an
 
 ::: {.video-grid}
 ::: {.video-card}
+[<img src="https://i.ytimg.com/vi/TK1e262Uvo8/hqdefault.jpg" alt="Thumbnail for Good Controls Gone Bad: Difference-in-Differences with Covariates" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=TK1e262Uvo8)
+
+### Good Controls Gone Bad: Difference-in-Differences with Covariates
+
+Why covariate assumptions matter for difference-in-differences, and how integrated parallel trends and DID-INT can help.
+
+[Watch on YouTube](https://www.youtube.com/watch?v=TK1e262Uvo8) · [Paper and software](software.qmd#did-int)
+:::
+::: {.video-card}
 [<img src="https://i.ytimg.com/vi/kqjMG6m-7rA/hqdefault.jpg" alt="Thumbnail for Randomization Inference for Accounting Researchers" loading="lazy" width="480" height="360">](https://www.youtube.com/watch?v=kqjMG6m-7rA)
 
 ### Randomization Inference for Accounting Researchers

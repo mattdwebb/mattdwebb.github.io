@@ -41,7 +41,7 @@ I develop and apply econometric methods for credible empirical research, with a 
 
 Studies identification with time-varying covariates and introduces the Intersection Difference-in-Differences (DID-INT) estimator.
 
-[Paper](https://arxiv.org/abs/2412.14447) · [Software](software.qmd#did-int)
+[Paper](https://arxiv.org/abs/2412.14447) · [Software](software.qmd#did-int) · [Watch video](https://www.youtube.com/watch?v=TK1e262Uvo8)
 :::
 
 ::: {.feature-card}
@@ -70,13 +70,13 @@ The [Software page](software.qmd) is a curated guide to implementations of my re
 
 ::: {.video-feature}
 ::: {.video-thumb}
-[![](https://i.ytimg.com/vi/rucQv4cd4Rg/hqdefault.jpg){fig-alt="Thumbnail for the video Which Policy Works, and Where? State-Level Treatment Effects in Difference-in-Differences"}](https://www.youtube.com/watch?v=rucQv4cd4Rg)
+[![](https://i.ytimg.com/vi/TK1e262Uvo8/hqdefault.jpg){fig-alt="Thumbnail for the video Good Controls Gone Bad: Difference-in-Differences with Covariates"}](https://www.youtube.com/watch?v=TK1e262Uvo8)
 :::
 ::: {.video-copy}
-### Which Policy Works, and Where? State-Level Treatment Effects in Difference-in-Differences
+### Good Controls Gone Bad: Difference-in-Differences with Covariates
 
-How treatment effects and inference should match policy questions at the jurisdiction, cohort, period, or policy-type level.
+Why covariate assumptions matter for difference-in-differences, and how integrated parallel trends and DID-INT can help.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=rucQv4cd4Rg) · [Working paper](https://arxiv.org/abs/2609.01467)
+[Watch on YouTube](https://www.youtube.com/watch?v=TK1e262Uvo8) · [Paper and software](software.qmd#did-int)
 :::
 :::

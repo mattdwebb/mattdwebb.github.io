@@ -57,7 +57,8 @@
       "summary": "Studies identification with time-varying covariates and introduces the Intersection Difference-in-Differences (DID-INT) estimator.",
       "links": [
         {"label": "arXiv", "url": "https://arxiv.org/abs/2412.14447"},
-        {"label": "DID-INT software", "url": "software.qmd#did-int"}
+        {"label": "DID-INT software", "url": "software.qmd#did-int"},
+        {"label": "Watch video", "url": "https://www.youtube.com/watch?v=TK1e262Uvo8"}
       ]
     },
     {

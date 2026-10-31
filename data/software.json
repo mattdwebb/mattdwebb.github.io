@@ -184,6 +184,7 @@
   {
     "id": "did-int",
     "name": "DID-INT",
+    "video": "https://www.youtube.com/watch?v=TK1e262Uvo8",
     "description": "Intersection Difference-in-Differences estimation for settings in which covariate effects may vary across states, time, or both.",
     "paper": {
       "citation": "Karim, Sunny, and Matthew D. Webb. 2024. 'Good Controls Gone Bad: Difference-in-Differences with Covariates.' arXiv:2412.14447.",
